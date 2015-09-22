@@ -29,7 +29,7 @@ I am ready for a new adventure outside of Canada, and willing to relocate.
 
 ##Portfolio
 
-(big sexy buckets in responsive columns)
+(big buckets in responsive columns)
 
 --
 
