@@ -126,21 +126,55 @@ nav a {
     color: #FFFFFF;
     background-color: #dfb45c; 
     text-align: center;
+    margin: 0 auto;
+}
+
+.centered {
+    text-align: center;
+    margin: 0 auto;
 }
 
 .body-centered {
     text-align: center;
-    margin: 10% 25%;
+    margin: 3rem 25%;
 }
 
 .quote {
     text-align: center;
-    margin: 10% 25%;
+    margin: 3rem 25%;
     font-style: italic;
     
 }
 
+.quote-mark {
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
 
+.section-header {
+    border-bottom: 2px solid #dfb45c;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+    padding: 2em;
+    width: 25%;
+    margin: 4rem auto 0 auto;
+}
+
+.white {
+    color: white;
+}
+
+.black-ground {
+    background-color: black;
+}
+
+.gold-ground {
+    background-color: #dfb45c;
+}
 
 
 @media only screen and (min-width: 25em) {
