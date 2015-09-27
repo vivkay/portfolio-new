@@ -60,11 +60,20 @@ ul, ol, p {
     margin: 0, auto;
 }
 
+.hero-content {
+    top: 20%;
+    position: absolute;
+    padding-left: 20%;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    position: relative;
+}
+
 .name {
     padding: 0 1rem;
-    position: absolute;
     color: white;
-    top: 50%;
+    top: 20%;
     margin: 0 auto;
     text-align: center;
     font-size: 8rem;
@@ -96,6 +105,28 @@ nav a {
     color: white;
 }
 
+.button-transparent {
+    border:3px solid currentColor;
+    font-size: 2rem;
+    text-transform: capitalize;
+    padding: 1rem 1.5rem;
+    text-decoration: none; 
+    display:inline-block;
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+    font-weight:bold; 
+    color: #FFFFFF;
+    background-color: transparent; 
+}
+
+.btn-gold {
+    font-size: 1.25rem;
+    padding: 1.25rem 1.75rem;
+    text-decoration: none; 
+    display:inline-block;
+    color: #FFFFFF;
+    background-color: #dfb45c; 
+    text-align: center;
+}
 
 
 
