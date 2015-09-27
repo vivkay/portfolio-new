@@ -1,25 +1,15 @@
 
-# Looking for Something Extraordinary?
+# Viv.Kay
 
-## I get excited about awesome interaction design
+### awesome UI design gives me tingles
 
 --
 
-##Story
+##About
 
-### Why I design
-Awesome UI design gives me tingles and this fast-paced industry challenges me in new ways every day. There is no other job I can imagine loving as much as this.
+I like to move it, move it! I have endless energy for graphic and interactive design.  I am driven by a deep desire to engage people, create meaningful experiences, and tell awesome stories. Basically, I want to do what all designers and coders do: make magic *cue magical hazaa sounds.*
 
-### Proven Passion
-- ux/ui design internship, Canadian Museum of History
-- graphic design assistant, Algonquin College Students' Association
-- copy editor, DRDC Canada
-- graphic design intern, Learning and Teaching Services at Algonquin College
-- student committee member, Registered Association of Graphic Designers Ontario
-- team leader, Interaction Design Jam
-
-### Going the distance
-I am ready for a new adventure outside of Canada, and willing to relocate.
+[check out my design experience](#experience)
 
 --
 
@@ -27,12 +17,64 @@ I am ready for a new adventure outside of Canada, and willing to relocate.
 
 (big buckets in responsive columns)
 
+[view more work on behance](https://www.behance.net/vivkay)
+
 --
 
-## Get in touch!
+##Process
 
-[website](vivkay.com)
-[email](mailto:hello@vivkay.com)
+I have learned (the hard way) that cutting corners in the early stages of a project can seriously compromise the integrity of your work. I believe in sketching, wireframes, brainstorming and an agile design process that integrates client and team feedback.
+
+[view process case study](https://www.behance.net/cmh-process)
+
+--
+
+##Experience
+
+“Vivienne’s keen eye for design and ability to turn things around in record breaking times make her a great asset to any team. Her editorial skills we're a tremendous help and coincided well in creating compelling and intuitive design.”
+
+Michel Joanisse, Front End Developer
+Canadian Museum of History
+
+cmh-logo.jpg
+- User Experience & 
+User Interaction Design Intern
+2015
+
+sa-logo.jpg
+- Graphic Design Assistant
+& YouTube Co-Host
+2015
+
+ac-logo.jpg
+- Graphic Design Intern
+& Project Creative Lead
+2014
+
+--
+
+##Toolbelt
+
+ai-logo.jpg
+psd-logo.jpg
+ae-logo.jpg
+id-logo.jpg
+sketch-logo.jpg
+sublime-logo.jpg
+invision-logo.jpg
+basecamp-logo.jpg
+
+--
+
+##Contact
+
+I love talking shop. Whether you want to work together, or just want to chat about awesome design, fee free to reach out.
+
+[email](hello@vivkay.com)
 [LinkedIn](https://ca.linkedin.com/in/vivkay)
 [Behance](https://www.behance.net/vivkay)
 [Twitter](https://twitter.com/viv_kay)
+
+--
+
+[Back to top](#top)
