@@ -55,6 +55,8 @@ ac-logo.jpg
 
 ##Toolbelt
 
+In addition to the ever-trusty pen and paper, these are a few of the programs I currently use in my workflow.
+
 ai-logo.jpg
 psd-logo.jpg
 ae-logo.jpg
