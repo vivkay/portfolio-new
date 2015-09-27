@@ -128,6 +128,19 @@ nav a {
     text-align: center;
 }
 
+.body-centered {
+    text-align: center;
+    margin: 10% 25%;
+}
+
+.quote {
+    text-align: center;
+    margin: 10% 25%;
+    font-style: italic;
+    
+}
+
+
 
 
 @media only screen and (min-width: 25em) {
