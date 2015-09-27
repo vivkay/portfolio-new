@@ -36,9 +36,39 @@ ul, ol, p {
     margin: 0 0 1.3rem;
 }
 
-.masthead {
+.hero {
     background-color: pink;
     text-align: center;
+    max-height: 75vh;
+    position: relative;
+    overflow: hidden;
+    background: 
+        linear-gradient(to top, rgba(234,28,70,0.5), transparent) no-repeat center bottom / 100% 80%,
+        url("../images/unicorn.jpg") no-repeat center top;
+    background-size: cover;
+    padding-top: 56.25%;
+}
+
+.nav-wrapper {
+    top: 5%;
+    padding: 0 1rem;
+    position: absolute;
+    width: 100%;
+    bottom: 15%;
+    color: white;
+    text-align: center;
+    margin: 0, auto;
+}
+
+.name {
+    padding: 0 1rem;
+    position: absolute;
+    color: white;
+    top: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 8rem;
+    letter-spacing: 5px;
 }
 
 .logo {
@@ -63,8 +93,9 @@ nav li {
 
 nav a {
     text-decoration: none;
-    
+    color: white;
 }
+
 
 
 

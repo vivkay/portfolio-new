@@ -184,6 +184,11 @@ small, .milli {
   padding-right: 2.6000rem;
 }
 
+.gutter-quadruple, .gutter-4 {
+  padding-left: 5.2000rem;
+  padding-right: 5.2000rem;
+}
+
 .gutter-half, .gutter-1-2 {
   padding-left: 0.6500rem;
   padding-right: 0.6500rem;
