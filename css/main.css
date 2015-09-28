@@ -115,6 +115,21 @@ nav a {
     font-weight:bold; 
     color: #FFFFFF;
     background-color: transparent; 
+    letter-spacing: 2px;
+}
+
+.btn-transparent:hover {
+    border:3px solid currentColor;
+    font-size: 2rem;
+    text-transform: capitalize;
+    padding: 1rem 1.5rem;
+    text-decoration: none; 
+    display:inline-block;
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+    font-weight:bold; 
+    color: #FFFFFF;
+    background-color: white; 
+    letter-spacing: 2px;
 }
 
 .btn-gold {
@@ -124,6 +139,18 @@ nav a {
     display:inline-block;
     color: #FFFFFF;
     background-color: #dfb45c; 
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: 2px;
+}
+
+.btn-gold:hover {
+    font-size: 1.25rem;
+    padding: 1.25rem 1.75rem;
+    text-decoration: none; 
+    display:inline-block;
+    color: white;
+    background-color: #C9A253; 
     text-align: center;
     margin: 0 auto;
 }
