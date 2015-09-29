@@ -269,6 +269,10 @@ nav a {
     width: 100%;
 }
 
+.exp-box figcaption {
+    padding: 4rem 0;
+}
+
 .pf-box {
     width: 100%;
 }
