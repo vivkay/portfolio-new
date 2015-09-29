@@ -263,6 +263,15 @@ nav a {
     margin: 1rem;
     float: left;
     display: inline-block;
+    box-shadow: 2px 2px 2px #E6E6E6;
+}
+
+.exp-box:hover {
+    border: 1px solid #E6E6E6;
+    margin: 1rem;
+    float: left;
+    display: inline-block;
+    box-shadow: 0px 0px 0px white;
 }
 
 .exp-box img {
