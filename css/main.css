@@ -42,6 +42,11 @@ ul, ol, p {
 
 .island-flex {
   padding: 0;
+    margin: 0;
+}
+
+.nav-wrapper {
+    display: none;
 }
 
 .hero {
@@ -55,17 +60,6 @@ ul, ol, p {
         url("http://placehold.it/1200x1125") no-repeat center top;
     background-size: cover;
     padding-top: 56.25%;
-}
-
-.nav-wrapper {
-    top: 5%;
-    padding: 0 1rem;
-    position: absolute;
-    width: 100%;
-    bottom: 15%;
-    color: white;
-    text-align: center;
-    margin: 0, auto;
 }
 
 .hero-content {
@@ -97,26 +91,6 @@ ul, ol, p {
     display: inline-block;
     width: 100px;
     float: left;
-}
-
-nav {
-    margin: 25px 0 0 0;
-    padding: 0;
-    text-align: left;
-    float: left;
-    display: block;
-}
-
-nav li {
-    list-style-type: none;
-    float: left;
-    margin: 1rem;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.25rem;
 }
 
 .btn-top-wrapper {
@@ -158,24 +132,19 @@ nav a {
     font-size: 1.25rem;
     padding: 1.25rem 1.75rem;
     text-decoration: none; 
-    display:inline-block;
+    display: block;
     color: #FFFFFF;
     background-color: #dfb45c; 
     text-align: center;
     margin: 0 auto;
     letter-spacing: 2px;
     font-weight: thin;
+    max-width: 25em;
 }
 
 .btn-gold:hover {
-    font-size: 1.25rem;
-    padding: 1.25rem 1.75rem;
-    text-decoration: none; 
-    display:inline-block;
     color: white;
     background-color: #C9A253; 
-    text-align: center;
-    margin: 0 auto;
 }
 
 .btn-gold-footer {
@@ -344,7 +313,7 @@ nav a {
 @media only screen and (min-width: 25em) {
 
     .island-flex {
-        padding: 1.3rem;
+        padding: 1rem 0.5rem 0.5rem 1rem;
     }
     
         .deck-flex {
@@ -384,7 +353,45 @@ nav a {
         line-height: 1.5rem;
     }
     
+    .nav-wrapper {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        top: 0;
+    }
+    
+    nav {
+        position: absolute;
+        top: 0;
+        background-color: black;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        margin: 0 auto;
+        float: left;
+        display: block;
+}
+    
+    nav ul {
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    nav li {
+        list-style-type: none;
+        float: left;
+        margin: .25rem 1rem .45rem 1rem;
+    }
 
+    nav a {
+        text-decoration: none;
+        color: white;
+        font-size: .25rem;
+        letter-spacing: 1px;
+    }
+
+    
    }
 
 
