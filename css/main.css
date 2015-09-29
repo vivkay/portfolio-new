@@ -103,13 +103,13 @@ ul, ol, p {
 }
 
 .btn-transparent {
+    margin: 2rem;
     border:1px solid white;
     font-size: 1rem;
-    text-transform: capitalize;
-    padding: 1rem 1.5rem;
+    text-transform: uppercase;
+    padding: 1rem 4rem;
     text-decoration: none; 
     display:inline-block;
-    text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
     font-weight: lighter; 
     color: #FFFFFF;
     background-color: transparent; 
@@ -117,15 +117,7 @@ ul, ol, p {
 }
 
 .btn-transparent:hover {
-    text-transform: capitalize;
-    padding: 1rem 1.5rem;
-    text-decoration: none; 
-    display:inline-block;
-    text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
-    font-weight:bold; 
-    color: black;
-    background-color: white; 
-    letter-spacing: 2px;
+    background-color: rgba(255,255,255,0.1); 
 }
 
 .btn-gold {
@@ -382,6 +374,10 @@ ul, ol, p {
         list-style-type: none;
         float: left;
         margin: .25rem 1rem .45rem 1rem;
+    }
+    
+    nav a:hover {
+        color: #C9A253;
     }
 
     nav a {
