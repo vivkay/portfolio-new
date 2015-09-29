@@ -35,6 +35,11 @@ ul, ol, p {
     margin: 0 0 1.3rem;
 }
 
+.flex {
+    width: 100%;
+    display: block;
+}
+
 .hero {
     background-color: black;
     text-align: center;
@@ -47,8 +52,6 @@ ul, ol, p {
     background-size: cover;
     padding-top: 56.25%;
 }
-
-
 
 .nav-wrapper {
     top: 5%;
@@ -76,7 +79,7 @@ ul, ol, p {
     top: 20%;
     margin: 0 auto;
     text-align: center;
-    font-size: 8rem;
+    font-size: 1.5rem;
     letter-spacing: 5px;
     font-weight: bold;
     line-height: 1;
@@ -350,5 +353,10 @@ nav a {
 
 @media only screen and (min-width: 60em) {
     
+    .name {
+
+    font-size: 8rem;
+}
+
    
 }
