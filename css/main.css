@@ -258,6 +258,21 @@ nav a {
     font-size: 1.25rem;
 }
 
+.exp-box {
+    border: 1px solid #E6E6E6;
+    margin: 1rem;
+    float: left;
+    display: inline-block;
+}
+
+.exp-box img {
+    width: 100%;
+}
+
+.pf-box {
+    width: 100%;
+}
+
 .grey {
  color: #858585;
 }
