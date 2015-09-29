@@ -263,11 +263,11 @@ nav a {
     margin: 1rem;
     float: left;
     display: inline-block;
-    box-shadow: 2px 2px 2px #E6E6E6;
+    box-shadow: 2px 2px 2px #EAEAEA;
 }
 
 .exp-box:hover {
-    border: 1px solid #E6E6E6;
+    border: 1px solid #F0F0F0;
     margin: 1rem;
     float: left;
     display: inline-block;
@@ -280,6 +280,10 @@ nav a {
 
 .exp-box figcaption {
     padding: 4rem 0;
+}
+
+.exp-box a {
+    text-decoration: none;
 }
 
 .pf-box {
