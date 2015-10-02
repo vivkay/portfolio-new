@@ -264,7 +264,7 @@ ul, ol, p {
     font-weight: lighter;
     padding: 0 2em 2em 2em;
     width: 50%;
-    margin: 4rem auto 2rem auto;
+    margin: 2rem auto 2rem auto;
     font-size: 1.125rem;
     letter-spacing: 1px;
 }
@@ -396,6 +396,7 @@ ul, ol, p {
     
     .section-header {
         width: 30%;
+        margin: 4rem auto 2rem auto;
     }
     
     .hero-content {
