@@ -31,6 +31,22 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0 1.3rem;
 }
 
+.hero-title {
+    color: ffff;
+    font-size: 1.75em;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    margin-bottom: 0.375em;
+    margin-bottom: 0;
+}
+
+.hero-tag {
+    font-weight: 100;
+    font-style: italic;
+    font-size: .75em;
+    letter-spacing: 0.05em;
+}
+
 ul, ol, p {
     margin: 0 0 1.3rem;
 }
@@ -52,7 +68,7 @@ ul, ol, p {
 .hero {
     background-color: black;
     text-align: center;
-    max-height: 65vh;
+    max-height: 75vh;
     position: relative;
     overflow: hidden;
     background: 
@@ -63,11 +79,11 @@ ul, ol, p {
 }
 
 .hero-content {
-    top: 25%;
+    top: 0;
+    margin-top: 5%;
     position: absolute;
     text-align: center;
     color: white;
-    margin: 0 auto;
     width: 100%;
 }
 
@@ -83,14 +99,12 @@ ul, ol, p {
     line-height: 1;
 }
 
-.tag {
-    font-weight: 100;
-}
-
 .logo {
     display: inline-block;
-    width: 100px;
+    width: 25px;
     float: left;
+    position: absolute;
+    top: 0;
 }
 
 .btn-top-wrapper {
@@ -100,6 +114,25 @@ ul, ol, p {
 }
 
 .btn-top {
+}
+
+.btn-cta {
+    margin-bottom: 2rem;
+    margin-top: 0.5em;
+    border: 2px solid white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 1rem 4rem;
+    text-decoration: none; 
+    display:inline-block;
+    font-weight: lighter; 
+    color: #FFFFFF;
+    background-color: transparent; 
+    letter-spacing: 1.5px;
+}
+
+.btn-cta:hover {
+    background-color: rgba(255,255,255,0.1); 
 }
 
 .btn-transparent {
@@ -121,17 +154,18 @@ ul, ol, p {
 }
 
 .btn-gold {
-    font-size: 1.25rem;
-    padding: 1.25rem 1.75rem;
+    font-size: 1rem;
+    padding: 1.25rem 1.5rem;
     text-decoration: none; 
     display: block;
     color: #FFFFFF;
     background-color: #dfb45c; 
     text-align: center;
     margin: 0 auto;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-weight: thin;
     max-width: 25em;
+    font-weight: lighter;
 }
 
 .btn-gold:hover {
@@ -172,28 +206,32 @@ ul, ol, p {
     line-height: 1.5;
 }
 
-.body-ctr-clear {
+.wrapper-margin {
+    margin: 0 5%;
+}
+
+.body-ctr {
+    width: 100%;
     text-align: center;
-    margin: 0 25%;
-    font-size: 1.1250rem;
+    padding: 0 2em;
+    font-size: 1rem;
     line-height: 1.5;
 }
 
 .deck-flex {
     text-align: center;
     font-size: 1.5rem;
-    font-weight: lighter;
+    font-weight: bold;
     padding: 2rem 0 0 0;
     font-weight: lighter;
-    
 }
 
 .deck2-flex {
     text-align: center;
     font-weight: 300;
+    font-size: 1.125em;
     padding: 0 2rem;
     color: grey;
-    font-weight: lighter;
     line-height: 1.5rem;
 }
 
@@ -224,10 +262,11 @@ ul, ol, p {
     text-align: center;
     text-transform: uppercase;
     font-weight: lighter;
-    padding: 2em;
+    padding: 0 2em 2em 2em;
     width: 50%;
     margin: 4rem auto 2rem auto;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
+    letter-spacing: 1px;
 }
 
 .exp-box {
@@ -303,12 +342,16 @@ ul, ol, p {
 
 
 @media only screen and (min-width: 25em) {
+    
+    .hero-title {
+        margin-top: 8%;
+    }
 
     .island-flex {
         padding: 1rem 0.5rem 0.5rem 1rem;
     }
     
-        .deck-flex {
+    .deck-flex {
     text-align: left;
     font-size: 1.75rem;
     padding: 2rem 0 0 2rem;
@@ -334,10 +377,35 @@ ul, ol, p {
 
 @media only screen and (min-width: 38em) {
 
+    .body-ctr {
+    padding: 0 20%;
+    }
+    
     .section-header {
         width: 30%;
     }
     
+    .hero-content {
+    margin-top: 10%;
+    }
+    
+    
+    .hero-title {
+        font-size: 2.75em;
+        margin-top: 2%;
+
+    }
+
+    .hero-tag {
+        font-size: 1.0125em;
+        margin-top: 1.25em;
+
+    }
+    
+    .btn-cta {
+        margin-top: 1.25em;
+    }
+
     
     .body-ctr-flex {
         margin: 3rem 15%;
