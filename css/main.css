@@ -347,9 +347,6 @@ ul, ol, p {
     display: none;
 }
 
-
-
-
 .portfolio-parent:hover .portfolio-text {
     position: absolute;
     top: 0;
@@ -359,6 +356,28 @@ ul, ol, p {
     text-align: center;
     color: #dfb45c;
     background-color: rgba(0, 0, 0, .65);
+    -webkit-animation: appear .25s ease-in-out forwards;
+    animation: appear .25s ease-in-out forwards;
+}
+
+@-webkit-keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .portfolio-parent:hover .portfolio-text span {
