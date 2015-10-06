@@ -380,6 +380,7 @@ ul, ol, p {
     }
 }
 
+
 .portfolio-parent:hover .portfolio-text span {
     position: absolute;
     top: 50%;
@@ -387,6 +388,7 @@ ul, ol, p {
     left: 0;
     right: 0;
 }
+
 
 .description {
     margin-bottom: .5rem;
@@ -426,6 +428,12 @@ ul, ol, p {
 }
 
 
+.bg-img {
+    background: url("http://placehold.it/1200x800") no-repeat center top;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+}
 
 
 @media only screen and (min-width: 25em) {
@@ -544,7 +552,7 @@ ul, ol, p {
     }
 
     
-   }
+}
 
 
 
