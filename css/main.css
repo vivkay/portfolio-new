@@ -322,7 +322,6 @@ ul, ol, p {
     ;
 }
 
-
 .exp-box img {
     width: 100%;
 }
@@ -334,78 +333,6 @@ ul, ol, p {
 .exp-box-text a {
     text-decoration: none;
     color: black;
-}
-
-
-.pf-box {
-    width: 100%;
-}
-
-.portfolio-parent {
-    position: relative;
-    display: block;
-}
-
-
-.portfolio-text {
-    display: none;
-}
-
-.portfolio-parent:hover .portfolio-text {
-    position: absolute;
-    top: 0;
-    display: block;
-    width: 100%;
-    height: 99%;
-    text-align: center;
-    color: #dfb45c;
-    background-color: rgba(0, 0, 0, .65);
-    -webkit-animation: appear .25s ease-in-out forwards;
-    animation: appear .25s ease-in-out forwards;
-}
-
-@-webkit-keyframes appear {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes appear {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-
-.portfolio-parent:hover .portfolio-text span {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    left: 0;
-    right: 0;
-}
-
-
-.description {
-    margin-bottom: .5rem;
-    font-weight: lighter;
-    font-size: 1em; 
-    letter-spacing: .5px;
-    
-}
-
-.classification {
-    font-size: .75em;
-    padding: 2em;
-    letter-spacing: 1px;
 }
 
 .grey {
@@ -425,12 +352,10 @@ ul, ol, p {
     background-color: #dfb45c;
 }
 
-
 .portfolio-buckets {
     overflow: hidden;
     width: 100%;
 }
-
 
 .bg-img {
     background: 
@@ -445,6 +370,33 @@ ul, ol, p {
     text-align: center;
 }
 
+.pf-box {
+    width: 100%;
+}
+
+.portfolio-parent {
+    display: block;
+    text-align: center;
+}
+
+.portfolio-text {
+    padding: 1rem;
+    display: block;
+    background-color: #333333;
+    color: #dfb45c;
+}
+
+.description {
+    font-size: 1em; 
+    letter-spacing: .5px;
+}
+
+.classification {
+    font-size: .75em;
+    padding-top: 1em;
+    padding-bottom: 0;
+    letter-spacing: 1px;
+}
 
 @media only screen and (min-width: 25em) {
     
@@ -561,6 +513,68 @@ ul, ol, p {
         letter-spacing: 1px;
     }
 
+    .portfolio-parent {
+        position: relative;
+        display: block;
+    }
+
+    .portfolio-text {
+        display: none;
+    }
+
+    .portfolio-parent:hover .portfolio-text {
+        position: absolute;
+        top: 0;
+        display: block;
+        width: 100%;
+        height: 99%;
+        text-align: center;
+        color: #dfb45c;
+        background-color: rgba(0, 0, 0, .65);
+        -webkit-animation: appear .25s ease-in-out forwards;
+        animation: appear .25s ease-in-out forwards;
+    }
+
+    @-webkit-keyframes appear {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes appear {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .portfolio-parent:hover .portfolio-text span {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+
+    .description {
+        margin-bottom: 1rem;
+        font-weight: lighter;
+        font-size: 1em; 
+        letter-spacing: .5px;
+    }
+
+    .classification {
+        font-size: .75em;
+        padding-top: 2.5em;
+        letter-spacing: 1px;
+    }
     
 }
 
