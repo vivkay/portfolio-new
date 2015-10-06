@@ -72,7 +72,11 @@ ul, ol, p {
     position: relative;
     overflow: hidden;
     background: 
-        linear-gradient(to top, rgba(234,28,70,0.5), transparent) no-repeat center bottom / 100% 80%,
+            linear-gradient(
+            rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)
+        ),
+        no-repeat center bottom / 100% 80%,
         url("http://placehold.it/1200x1125") no-repeat center top;
     background-size: cover;
     padding-top: 56.25%;
