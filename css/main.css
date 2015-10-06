@@ -429,7 +429,13 @@ ul, ol, p {
 
 
 .bg-img {
-    background: url("http://placehold.it/1200x800") no-repeat center top;
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)
+        ),
+        url("http://placehold.it/1200x800") no-repeat center top
+        ;
     background-size: cover;
     overflow: hidden;
     text-align: center;
