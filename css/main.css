@@ -629,19 +629,22 @@ ul, ol, p {
     }
     
     .section-header {
-    font-size: 1.5rem;
-}
+        font-size: 1.5rem;
+    }
 
-.section-header-footer {
-    font-size: 1.5rem;
-}
+    .section-header-footer {
+        font-size: 1.5rem;
+    }
     
-    
-.btn-gold {
-    font-size: 1.5rem;
-    padding: 1.5rem 1.75rem;
-}
+    .btn-gold {
+        font-size: 1.5rem;
+        padding: 1.5rem 1.75rem;
+    }
 
+    .btn-cta {
+        font-size: 1.5rem;
+        padding: 1.5rem 4rem;
+}
 
 }
     
