@@ -627,6 +627,15 @@ ul, ol, p {
     .hero-tag {
         font-size: 2rem;
     }
+    
+    .section-header {
+    font-size: 1.5rem;
+}
+
+.section-header-footer {
+    font-size: 1.5rem;
+}
+
 
 }
     
