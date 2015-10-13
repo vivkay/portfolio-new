@@ -401,6 +401,7 @@ ul, ol, p {
 .grey-ground {
     background-color: #4D4D4D;
     padding: 2rem;
+    position: relative;
 }
 
 .white-ground {
