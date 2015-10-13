@@ -401,12 +401,10 @@ ul, ol, p {
 .grey-ground {
     background-color: #4D4D4D;
     padding: 2rem;
-    position: relative;
 }
 
 .white-ground {
     background-color: white;
-    height: 500px;
 }
 
 .pf-1 {
@@ -414,15 +412,11 @@ ul, ol, p {
 }
 
 .pf-2 {
-    width: 25%;
-    float: left;
-    display: inline-block;
+    width: 100%;
 }
 
-.pf-text{
-    width: 55%;
-    float: left;
-    display: inline-block;
+.pf-text {
+    width: 100%;
 }
 
 @media only screen and (min-width: 25em) {
@@ -501,7 +495,6 @@ ul, ol, p {
     .nav-wrapper {
         display: block;
         width: 100%;
-        text-align: center;
         margin: 0 auto;
         top: 0;
     }
@@ -512,21 +505,17 @@ ul, ol, p {
         background-color: black;
         width: 100%;
         padding: 0;
-        text-align: center;
         margin: 0 auto;
-        float: left;
-        display: block;
 }
     
     nav ul {
-        text-align: center;
         margin: 0 auto;
     }
     
     nav li {
         list-style-type: none;
-        float: left;
-        margin: .25rem 1rem .45rem 1rem;
+        display: inline-block;
+        margin: .25rem 2rem .45rem 2rem;
     }
     
     nav a:hover {
