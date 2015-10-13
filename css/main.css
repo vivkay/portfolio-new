@@ -604,9 +604,22 @@ ul, ol, p {
     .deck-flex {
         font-size: 2.25rem;
         line-height: 3rem;
-}
+    }
 
     .deck2-flex {
         font-size: 1.75em;
         line-height: 3rem;
     }
+    
+    .body-ctr-flex {
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+
+    .body-ctr {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+}
+}
+    
+    
