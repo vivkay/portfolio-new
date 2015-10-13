@@ -620,6 +620,14 @@ ul, ol, p {
         font-size: 1.5rem;
         line-height: 2.5rem;
 }
+    .hero-title {
+        font-size: 4rem;
+    }
+
+    .hero-tag {
+        font-size: 2rem;
+    }
+
 }
     
     
