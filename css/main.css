@@ -398,6 +398,32 @@ ul, ol, p {
     letter-spacing: 1px;
 }
 
+.grey-ground {
+    background-color: #4D4D4D;
+    padding: 2rem;
+}
+
+.white-ground {
+    background-color: white;
+    height: 500px;
+}
+
+.pf-1 {
+    width: 100%;
+}
+
+.pf-2 {
+    width: 25%;
+    float: left;
+    display: inline-block;
+}
+
+.pf-text{
+    width: 55%;
+    float: left;
+    display: inline-block;
+}
+
 @media only screen and (min-width: 25em) {
     
     .hero-title {
@@ -583,10 +609,6 @@ ul, ol, p {
 
 @media only screen and (min-width: 60em) {
     
-    .body-ctr {
-        padding: 0 20%;
-    }
-    
     .name {
     font-size: 8rem;
     }
@@ -597,7 +619,7 @@ ul, ol, p {
     
     .body-flex {
         font-size: 1.5rem;
-        line-height: 2;
+        line-height: 1.75;
         width: 80%;
     }
     
@@ -618,8 +640,10 @@ ul, ol, p {
 
     .body-ctr {
         font-size: 1.5rem;
-        line-height: 2.5rem;
+        line-height: 2rem;
+        padding: 0 20%;
 }
+    
     .hero-title {
         font-size: 4rem;
     }
