@@ -519,7 +519,16 @@ ul, ol, p {
         margin: .25rem 2rem .45rem 2rem;
     }
     
+  
     nav a:hover {
+        color: #C9A253;
+    }
+    
+    nav a:active {
+        color: #8D713A;
+    }
+    
+    .current {
         color: #C9A253;
     }
 

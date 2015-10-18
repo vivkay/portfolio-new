@@ -27,7 +27,27 @@ layout: default
                 </div>
             </div>
         </section>
-
+        
+        
+        <section id="portfolio" class="pad-b">
+        <h2 class="section-header">Portfolio</h2>
+        <div class="grid">
+                {% for project in site.posts %}
+                <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 island-flex">
+                    <ul>
+                        <li class="portfolio-parent">
+                            <a href="{{site.baseurl}}/project1.html">
+                                <img class="pf-box" src="http://placehold.it/480x480" alt=""> 
+                                <p class="portfolio-text"><span class="description">{{project.title}}</span><span class="classification">{{project.category}}</span></p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                {% endfor %}
+        <a class="btn-gold centered" href="https://www.behance.net/vivkay">view my full portfolio on Behance</a>
+        </section>
+        
+        <!-- old portfolio section 
         <section id="portfolio" class="pad-b">
             <h2 class="section-header">Portfolio</h2>
             <div class="grid">
@@ -57,6 +77,10 @@ layout: default
             </div>
             <a class="btn-gold centered" href="https://www.behance.net/vivkay">view my full portfolio on Behance</a>
         </section>
+
+-->
+            
+
         
 <!--
         <section id="portfolio-panel" class="grey-ground pad-t pad-b">
