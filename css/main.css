@@ -537,80 +537,7 @@ ul, ol, p {
         color: white;
         font-size: .25rem;
         letter-spacing: 1px;
-    }
-
-    .portfolio-parent {
-        position: relative;
-        display: block;
-    }
-
-    .portfolio-text {
-        display: none;
-    }
-
-    .portfolio-parent:hover .portfolio-text {
-        position: absolute;
-        top: 0;
-        padding-top: 33.333%;
-        display: block;
-        width: 100%;
-        height: 99%;
-        text-align: center;
-        color: #dfb45c;
-        background-color: rgba(0, 0, 0, .65);
-        -webkit-animation: appear .25s ease-in-out forwards;
-        animation: appear .25s ease-in-out forwards;
-    }
-
-    @-webkit-keyframes appear {
-        0% {
-            opacity: 0;
-        }
-
-        100% {
-            opacity: 1;
-        }
-    }
-
-    @keyframes appear {
-        0% {
-            opacity: 0;
-        }
-
-        100% {
-            opacity: 1;
-        }
-    }
-
-    .portfolio-parent:hover .portfolio-text span {
-        position: absolute;
-        top: 50%;
-        width: 100%;
-        left: 0;
-        right: 0;
-        text-align: center;
-    }
-
-    .description {
-        margin-bottom: .5rem;
-        font-size: 1.25em; 
-        font-weight: lighter;
-        letter-spacing: .5px;
-        padding-bottom: .75rem;
-        border-bottom: 1px solid #C9A253;
-        width: 60%;
-        text-align: center;
-        display: inline-block;
-        color: white;
-    }
-
-    .classification {
-        font-size: .8em;
-        padding-top: 1em;
-        letter-spacing: 1px;
-        font-weight: lighter;
-    }
-    
+    }    
     
 }
 
@@ -679,6 +606,78 @@ ul, ol, p {
         padding: 1.5rem 4rem;
 }
 
+    .portfolio-parent {
+        position: relative;
+        display: block;
+    }
+
+    .portfolio-text {
+        display: none;
+    }
+
+    .portfolio-parent:hover .portfolio-text {
+        position: absolute;
+        top: 0;
+        padding-top: 42%;
+        display: block;
+        width: 100%;
+        height: 99%;
+        text-align: center;
+        color: #dfb45c;
+        background-color: rgba(0, 0, 0, .65);
+        -webkit-animation: appear .25s ease-in-out forwards;
+        animation: appear .25s ease-in-out forwards;
+    }
+
+    @-webkit-keyframes appear {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes appear {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .portfolio-parent:hover .portfolio-text span {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    .description {
+        margin-bottom: .5rem;
+        font-size: 1.25em; 
+        font-weight: lighter;
+        letter-spacing: .5px;
+        padding-bottom: .75rem;
+        border-bottom: 1px solid #C9A253;
+        width: 60%;
+        text-align: center;
+        display: inline-block;
+        color: white;
+    }
+
+    .classification {
+        font-size: .8em;
+        padding-top: 1em;
+        letter-spacing: 1px;
+        font-weight: lighter;
+    }
+    
 }
     
     
