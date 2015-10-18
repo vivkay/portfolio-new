@@ -500,7 +500,8 @@ ul, ol, p {
     }
     
     nav {
-        position: absolute;
+        position: fixed;
+        z-index: 100;
         top: 0;
         background-color: black;
         width: 100%;

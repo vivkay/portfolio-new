@@ -1,39 +1,13 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-    <meta charset="utf-8">
-    <title>Vivienne Kay</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/typography.css" rel="stylesheet">
-    <link href="css/grid.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
-    <link href="vk-favicon.ico" rel="shortcut icon">
-</head>
-<body>
-    
-    <header class="hero">
-        <div class="nav-wrapper">
-            <img class="logo" src="http://placehold.it/100x100" alt="">
-            <nav>
-                <ul>
-                    <li class="nav-link"><a href="#about">ABOUT</a></li>
-                    <li class="nav-link"><a href="#portfolio">PORTFOLIO</a></li>
-                    <li class="nav-link"><a href="#process">PROCESS</a></li>
-                    <li class="nav-link"><a href="#experience">EXPERIENCE</a></li>
-                    <li class="nav-link"><a href="#toolbelt">TOOLBELT</a></li>
-                    <li class="nav-link"><a href="#contact">CONTACT</a></li>
-                    <li class="nav-link"><a href="https://viviennekay.wordpress.com/">DESIGN BLOG</a></li>
-                </ul>
-            </nav>
-        </div>                  
-        <div class="hero-content">
-            <h1 class="hero-title">Viv • Kay</h1>
-            <p class="hero-tag">awesome design gives me tingles</p>
-            <a class="btn-cta" href="#portfolio">Portfolio</a>
-        </div>
-    </header>
-    
+---
+layout: default
+---
+
+    <div class="hero-content">
+        <h1 class="hero-title">Viv • Kay</h1>
+        <p class="hero-tag">awesome design gives me tingles</p>
+        <a class="btn-cta" href="#portfolio">Portfolio</a>
+    </div>    
+
     <main>
         <!--- optional back to top fixed button 
         <div class="btn-top-wrapper">
@@ -59,12 +33,14 @@
             <div class="grid">
                 <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 island-flex">
                     <figure class="portfolio-parent">
-                        <img class="pf-box" src="http://placehold.it/480x480" alt="">   
-                        <figcaption class="portfolio-text"><span class="description">Project Name / Title / Description</span><span class="classification">Graphic Design</span></figcaption>
-                    </figure>
+                        <a href="project1.html">
+                            <img class="pf-box" src="http://placehold.it/480x480" alt=""> 
+                            <figcaption class="portfolio-text"><span class="description">Project Name / Title / Description</span><span class="classification">Graphic Design</span></figcaption>
+                        </figure>
+                        </a>  
                 </div>
                 <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 island-flex">
-                    <img class="pf-box" src="http://placehold.it/480x480" alt="">
+                    <a href="project2.html"><img class="pf-box" src="http://placehold.it/480x480" alt=""></a>
                 </div>
                 <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 island-flex">
                     <img class="pf-box" src="http://placehold.it/480x480" alt="">
@@ -150,7 +126,7 @@
         
         <section id="contact" class="black-ground island">
             <h2 class="section-header-footer white">contact</h2>
-            <p class="body-ctr white">I love talking shop. Whether you want to work together, or just want to chat about awesome design, fee free to reach out.</p>
+            <p class="body-ctr white">I love talking shop. Whether you want to work together, or just want to chat about awesome design, feel free to reach out.</p>
             <!--add png icon buttons-->
         </section>
         
@@ -160,5 +136,3 @@
         <a class="btn-gold-footer" href="#top">Back to Top</a>
     </footer>
     
-</body>
-</html>
