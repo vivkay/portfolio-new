@@ -31,6 +31,10 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0 1.3rem;
 }
 
+a {
+    text-decoration: none;
+}
+
 .hero-title {
     color: ffff;
     font-size: 1.75em;
@@ -422,6 +426,59 @@ ul, ol, p {
 .project-title {
     text-align: center;
     margin-top: 2em;
+}
+
+.breadcrumb-back {
+    width: 100%;
+    background-color: red;
+    color: white;
+    height: 6rem;
+    padding: 1rem;
+    display: block;
+    text-align: left;
+    padding-left: 20%;
+    padding-top: 1.5rem;
+}
+
+.breadcrumb-back:hover {
+    background-color: #E60000;
+}
+
+.breadcrumb-back:active{
+    background-color: #CC0000;
+}
+
+.breadcrumb-fwd {
+    width: 100%;
+    background-color: gold;
+    color: black;
+    height: 6rem;
+    display: block;
+    float: right;
+    text-align: right;
+    padding-right: 20%;
+    padding-top: 1.5rem;
+}
+
+.hint-crumb {
+    font-size: 1rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.name-crumb {
+    font-size: 1.25rem;
+    padding-top: 0; 
+}
+
+.client-name {
+    color: grey;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+.w100 {
+    width: 100%;
 }
 
 @media only screen and (min-width: 25em) {
