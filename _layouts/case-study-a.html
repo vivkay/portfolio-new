@@ -1,0 +1,73 @@
+---
+layout: default
+---
+
+<h1 class="project-title">{{ project-title }}</h1>
+<h3 class="centered client-name">{{ subtitle }}</h3>
+
+<h2 class="section-header">{{ project overview }}</h2>
+<p class="body-ctr">{{ overview }}</p>
+
+<div class="grid">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 island-2">
+        <h3 class="header-flex">The Client</h3>
+        <p class="col-flex">{{ client-about }}</p>
+    </div>
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 island-2">
+        <h3 class="header-flex">My Role</h3>
+        <p class="col-flex">{{ role }}</p>
+    </div>
+    
+    <div class="grid">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 island-2">
+        <h3 class="header-flex">Target Audience</h3>
+        <p class="col-flex">{{ audience }}</p>
+    </div>
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 island-2">
+        <h3 class="header-flex">Research</h3>
+        <p class="col-flex">{{ research }}</p>
+    </div>
+
+    <img class="w100" src="http://placehold.it/1200x640" alt="" class="centered">  
+</div>
+
+<div class="island push-2">
+    <h2 class="section-header">Design Challenges</h2>
+    <p class="body-ctr">{{ challenges }}</p>
+    </div>
+
+<div class="island push-2">
+    <h2 class="section-header">Key Contributions</h2>
+    <p class="body-ctr">{{ contributions }}</p>
+    </div>
+
+<div class="grid">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+        <img class="w100" src="http://placehold.it/480x480" alt="">
+    </div>
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+        <h2 class="headline">Workflow</h2>
+        <p class="body-flex">{{ workflow }}</p>
+    </div>
+</div>
+
+<div class="island push-2">
+    <h2 class="section-header">Project Outcomes</h2>
+    <p class="body-ctr">{{ outcomes }}</p>
+    </div>
+
+
+<div class="grid">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+            <a class="breadcrumb-back" href="{{site.baseurl}}/{{index.html #portfolio}}">
+                <p class="hint-crumb">Back</p>
+                <p class="name-crumb">Portfolio Overview</p>
+            </a>
+    </div>
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+        <a class="breadcrumb-fwd" href="{{site.baseurl}}/{{project2.html}}">
+            <p class="hint-crumb">Next</p>
+            <p class="name-crumb">Project 2 Name</p>
+            </a>
+    </div>
+</div>

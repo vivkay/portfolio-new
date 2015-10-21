@@ -1,22 +1,16 @@
-project-title: Web Design Refresh
+title: Web Design Refresh
 
 subtitle: Canadian Museum of History | 2015
 
 overview: This three-month project aimed to refresh the Canadian Museum of History and Canadian War Museum website designs using a flexible modular system that's both responsive and priority-sensitive. Because of the number of invested parties represented on the website, our team was were responsible to approximately fifteen unique clients – each representing various departments within the museum – including Facility Rentals, Guest Services, Membership and Donations, the Learning and Resource Center, the Curatorial and Research Departments, the Library and Archives, IMAX, Publishing, Corporate and Media Relations, and Marketing. We also worked with clients that are affiliated with the museum and also represented on the website, such as the Canadian Children's Museum, the Canadian War Museum, the Virtual Museum of Canada, and the Virtual Museum of New France. 
 
-client-about: The Canadian Museum of History (CMH) is an internationally recognized cultural institution that averages over one million visitors annually. The museum is located in Gatineau, Quebec, across the water from Parliament Hill in Ottawa. Operated by the federal Canadian Museum of History Corporation, the CMH is closely affiliated with Canadian War Museum (CWM) and the Virtual Museum of Canada (VMC). 
+client: The Canadian Museum of History (CMH) is an internationally recognized cultural institution that averages over one million visitors annually. The museum is located in Gatineau, Quebec, across the water from Parliament Hill in Ottawa. Operated by the federal Canadian Museum of History Corporation, the CMH is closely affiliated with Canadian War Museum (CWM) and the Virtual Museum of Canada (VMC). 
 
 role: This website re-design was one major project that I worked on during my summer internship as a UI/UX Designer in the Department of Digital Projects. As the only Graphic Designer in the department, I worked closely with three Project Managers and a talented Front End Developer and Design Lead to take this project from conceptual wireframes through to high-fidelity interactive prototypes.
 
-audience: 
+audience: The museum's primary audience includes men and women aged 25-65 years with diverse interests including cultural (e.g. art and history lovers and families), educational (e.g. school teachers), research (e.g. academics) and corporate (e.g. local businesses and/or cultural investors).
 
-research: 
-
-challenges: There were three major design challenges for this project: the quantity of content, and the number of clients, as well as specific design restrictions. 
-
-Because the website content had been migrated over from an older version of the site, there was a considerable amount of duplicated and often redundant content. This required not simply a surface-level redesign, but an entirely fresh approach to the content, structure and flow of each page as a unique entity. Using our new modular grid design allowed us to easily integrate a diverse amount of content in a way that was still easily readable for viewers.
-
-The home page of the website required a flexible header or hero section to accommodate various feature items, such as new exhibitions, gift shop promotions, IMAX movies, events and so on. For this reason we designed various layouts for the hero section, ranging from a single-image billboard to four separate containers for feature content.
+research: Research was primarily conducted digitally, with online comparison to websites from internationally-recognized cultural institutions as well as award-winning websites in external industries.
 
 contributions: During the initial concept meetings and wireframes I contributed core usability ideas including the permanently fixed call-to-action bar (featuring operational hours, and select call-to-action buttons that enhance user flow), social media integration on unique elements, variants on navigational placements, and a dynamic layer of user engagement using CSS animations, smart content (such as a local weather plugin) and integrated GIF or video elements. 
 
@@ -24,13 +18,17 @@ After team brainstorming and sketching, I created greyscale wireframes in Adobe 
 
 Once our high-fidelity mockups for the Home page was approved, I proceeded to work on designs for twenty independent pages of the website. I uploaded each page to a collaborative project in InVision and integrated internal and client feedback into later design iterations.
 
+challenges: There were three major design challenges for this project: the quantity of content, and the number of clients, as well as specific design restrictions. 
+
+Because the website content had been migrated over from an older version of the site, there was a considerable amount of duplicated and often redundant content. This required not simply a surface-level redesign, but an entirely fresh approach to the content, structure and flow of each page as a unique entity. Using our new modular grid design allowed us to easily integrate a diverse amount of content in a way that was still easily readable for viewers.
+
+The home page of the website required a flexible header or hero section to accommodate various feature items, such as new exhibitions, gift shop promotions, IMAX movies, events and so on. For this reason we designed various layouts for the hero section, ranging from a single-image billboard to four separate containers for feature content.
+
 workflow: Our team worked with an agile design process, meaning there was a fluid process of communication and integration of feedback within our team and with our clients. Initial meetings happened in-person, however once the project was live on InVision, our Project Managers would present the designs to various clients and departments and share ther feedback in our internal weekly team meetings. For later iterations of feedback, once a general understanding of the overall design direction had been established, clients commented directly onto InVision and I updated the designs accordingly. 
 
 On a granular level, our team worked closely using collaborative tools such as Google Drive and InVision.  With an open-plan office, it was easy to share ideas and review variants on design and layout together.
 
 outcomes: At the end of my four-month internship we had successfully completed the project's UI design and received approval from our internal clients. Our team's re-envisioning of outdated content and broken user-flow was well-received.
-
-The call-to-action bar that I had introduced in early wireframe stages was integrated into every page of the website, with custom buttons that reflected the unique page content (for example, a button to buy tickets on the Plan Your Visit page). 
 
 
 
