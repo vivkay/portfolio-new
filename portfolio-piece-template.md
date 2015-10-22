@@ -1,4 +1,4 @@
----
+
 thumbnail: thumb.jpg
 image: cmh-web.jpg
 category: web design
@@ -8,4 +8,3 @@ process: Worked on design phase with one front-end-developer, three project mana
 rationale: A brief section on the design decisions made…
 link: [Behance link](https://www.behance.net/vivkay/cmh)
 
----
