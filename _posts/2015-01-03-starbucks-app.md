@@ -3,13 +3,5 @@ layout: case-study-a
 title: Starbucks App Promo
 category: Illustration and Motion Graphics
 img: img/project4.jpg
-link: project4.html
+link: starbucks-promo.html
 ---
-
-Website Design
-
-This is some text for Project 4
-
-<h1>Title test</h1>
-
-<p>paragraph</p>
