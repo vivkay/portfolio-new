@@ -295,7 +295,6 @@ ul, ol, p {
     display: inline-block;
     box-shadow: 2px 2px 2px #EAEAEA;
     width: 100%;
-    display: relative;
 }
 
 .exp-box a {
