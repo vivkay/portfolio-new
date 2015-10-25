@@ -69,26 +69,34 @@ changefreq: monthly
             </div>
             
             <div class="grid">
-                <div class="unit unit-s-1 unit-m-1-3 unit-l-1-3 island">
+                <div class="unit unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-4 island">
                     <div class="exp-box">
-                        <img src="http://placehold.it/480x200" alt="Canadian Museum of History Logo">
+                        <img src="{{site.baseurl}}/img/logo-cmh.png" alt="Canadian Museum of History Logo">
                             <a href="https://www.linkedin.com/in/vivkay">
                                 <p>UX <br>&amp; UI Design Intern <span class="bold pad-t">2015</span></p>
                             </a>
                     </div>
                 </div>
-                <div class="unit unit-s-1 unit-m-1-3 unit-l-1-3 island">
+                <div class="unit unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-4 island">
                     <div class="exp-box">
-                        <img src="http://placehold.it/480x200" alt="Algonquin Students Association Logo">
+                        <img src="{{site.baseurl}}/img/logo-sa.png" alt="Algonquin Students Association Logo">
                             <a href="https://www.linkedin.com/in/vivkay">
                                 <p>Graphic Design Assistant <br>&amp; YouTube Co-Host <span class="bold pad-t">2015</span></p>
                             </a>
                     </div>
                 </div>
-                <div class="unit unit-s-1 unit-m-1-3 unit-l-1-3 island">
+                <div class="unit unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-4 island">
                     <div class="exp-box">
-                        <img src="http://placehold.it/480x200" alt="Algonquin College Logo">
+                        <img src="{{site.baseurl}}/img/logo-ac.png" alt="Algonquin College Logo">
                             <a href="https://www.linkedin.com/in/vivkay"><p>Graphic Design Intern <br>&amp; Project Creative Lead <span class="bold pad-t">2014</span></p>
+                            </a>
+                    </div>
+                </div>
+                <div class="unit unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-4 island">
+                    <div class="exp-box">
+                        <div class="portfolio-text">
+                        <img src="{{site.baseurl}}/img/logo-drdc.png" alt="DRDC Logo">
+                            <a href="https://www.linkedin.com/in/vivkay"><p class="description">Freelance Copy Editor</p><p class="classification">2013-2015</p>
                             </a>
                     </div>
                 </div>
@@ -96,7 +104,25 @@ changefreq: monthly
         <a class="btn-gold" href="https://www.linkedin.com/in/vivkay">more experience &amp; tesimonials on&nbsp;LinkedIn</a>
         </section>
         
-<!-- Jekyll test
+<!-- This is a TEST and how the experience buckets should be constructed, but using jekyll. Figure out the sorting of posts by category and then these buckets will look the same as the portfolio buckets above, but with no hover state. Their links will go to Linkedin.
+            <div class="grid">
+                <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-2 unit-xxl-1-3 island-flex">
+                    <ul>
+                        <li class="portfolio-parent">
+                            <a href="{{site.baseurl}}/{{project.link}}">
+                                <img class="pf-box" src="{{site.baseurl}}/img/logo-drdc.png" alt=""> 
+                                <div class="portfolio-text">
+                                    <p class="description">Freelance Editor</p>
+                                    <p class="classification">2013-2015</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+-->
+            
+<!-- Jekyll test #2 for categories:
             <div class="grid">
                 {% for job in site.categories.job %}
                 <div class=" unit unit-s-1 unit-m-1-3 unit-l-1-3 island">
@@ -108,7 +134,7 @@ changefreq: monthly
                     </div>
                 {% endfor %}
                 </div>
--->
+
         
         <section id="toolbelt" class="push-2">
             <h2 class="section-header">Toolbelt</h2>

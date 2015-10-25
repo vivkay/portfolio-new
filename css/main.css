@@ -295,6 +295,7 @@ ul, ol, p {
     display: inline-block;
     box-shadow: 2px 2px 2px #EAEAEA;
     width: 100%;
+    display: relative;
 }
 
 .exp-box a {
@@ -304,7 +305,6 @@ ul, ol, p {
 
 .exp-box a p {
     padding-top: 2rem;
-    height: 12rem;
 }
 
 .exp-box:hover {
@@ -407,12 +407,34 @@ ul, ol, p {
     color: white;
 }
 
+.description-black {
+    margin-bottom: .5rem;
+    font-size: 1.25em; 
+    font-weight: lighter;
+    letter-spacing: .5px;
+    padding-bottom: .25rem;
+    border-bottom: 1px solid #C9A253;
+    width: 60%;
+    text-align: center;
+    display: inline-block;
+    color: black;
+}
+
 .classification {
     font-size: .8em;
     padding-top: 1em;
     letter-spacing: 1px;
     font-weight: lighter;
 }
+
+.classification-black {
+    font-size: .8em;
+    padding-top: 1em;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    color: black;
+}
+
 
 .grey-ground {
     background-color: #4D4D4D;
@@ -587,6 +609,27 @@ ul, ol, p {
         line-height: 1.5rem;
     }
     
+    .portfolio-text {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        padding-top: 1rem;
+        display: block;
+        background-color: #333333;
+        color: #dfb45c;
+    }
+    
+        .flex {
+        margin-left: 2rem;
+    }
+
+    
+}
+
+
+/* this is l size */
+@media only screen and (min-width: 60em) {
+    
     .nav-wrapper {
         display: block;
         width: 100%;
@@ -602,7 +645,7 @@ ul, ol, p {
         width: 100%;
         padding: 0;
         margin: 0 auto;
-}
+    }
     
     nav ul {
         margin: 0 auto;
@@ -620,12 +663,12 @@ ul, ol, p {
         float: left;
         position: absolute;
         top: 10px;
-}
+    }
     
     nav li {
         list-style-type: none;
         display: inline-block;
-        margin: 10px 40px;
+        margin: 10px 30px;
     }
     
   
@@ -647,27 +690,6 @@ ul, ol, p {
         font-size: .25rem;
         letter-spacing: 1px;
     }   
-    
-    .portfolio-text {
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        padding-top: 1rem;
-        display: block;
-        background-color: #333333;
-        color: #dfb45c;
-    }
-    
-        .flex {
-        margin-left: 2rem;
-    }
-
-    
-}
-
-
-/* this is l size */
-@media only screen and (min-width: 60em) {
     
     .name {
     font-size: 8rem;
@@ -702,7 +724,7 @@ ul, ol, p {
         font-size: 1.25rem;
         line-height: 2rem;
         padding: 0 20%;
-}
+    }
     
     .hero-title {
         font-size: 4rem;
@@ -728,11 +750,11 @@ ul, ol, p {
     .btn-cta {
         font-size: 1.5rem;
         padding: 1.5rem 4rem;
-}
+    }
     
     .header-flex {
         text-align: left;
-}
+    }
 
     .col-flex {
         text-align: left;
@@ -743,10 +765,19 @@ ul, ol, p {
 /* this is xl size */
 @media only screen and (min-width: 80em) {
 
+    nav li {
+        margin: 10px 50px;
+    }
+    
 }
 
 /* this is xxl size */
 @media only screen and (min-width: 100em) {
+    nav li {
+        margin: 10px 70px;
+    }
+    
+    
     .portfolio-text {
         display: none;
     }
