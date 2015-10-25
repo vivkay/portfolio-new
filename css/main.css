@@ -35,6 +35,7 @@ a {
     text-decoration: none;
 }
 
+
 .hero-title {
     color: ffff;
     font-size: 1.75em;
@@ -109,7 +110,7 @@ ul, ol, p {
 
 .logo {
     display: inline-block;
-    width: 25px;
+    width: 50px;
     float: left;
     position: absolute;
     top: 0;
@@ -613,12 +614,13 @@ ul, ol, p {
     
     nav ul {
         margin: 0 auto;
+        height: 40px;
     }
     
     nav li {
         list-style-type: none;
         display: inline-block;
-        margin: .25rem 2rem .45rem 2rem;
+        margin: 10px 40px;
     }
     
   
