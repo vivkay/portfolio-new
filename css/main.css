@@ -542,6 +542,11 @@ ul, ol, p {
         padding: 0 2rem;
     }
     
+        
+    .flex {
+        margin-left: 0;
+    }
+    
 }
 
 
@@ -641,6 +646,11 @@ ul, ol, p {
         background-color: #333333;
         color: #dfb45c;
     }
+    
+        .flex {
+        margin-left: 2rem;
+    }
+
     
 }
 
