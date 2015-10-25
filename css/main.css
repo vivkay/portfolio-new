@@ -656,7 +656,7 @@ ul, ol, p {
     }
 
     .body-ctr {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         line-height: 2rem;
         padding: 0 20%;
 }
@@ -692,10 +692,45 @@ ul, ol, p {
         display: block;
     }
 
-    .portfolio-text {
-        display: none;
+    .description {
+        margin-bottom: .5rem;
+        font-size: 1.25em; 
+        font-weight: lighter;
+        letter-spacing: .5px;
+        padding-bottom: .75rem;
+        border-bottom: 1px solid #C9A253;
+        width: 60%;
+        text-align: center;
+        display: inline-block;
+        color: white;
     }
 
+    .classification {
+        font-size: .8em;
+        padding-top: 1em;
+        letter-spacing: 1px;
+        font-weight: lighter;
+    }
+    
+    .header-flex {
+        text-align: left;
+}
+
+    .col-flex {
+        text-align: left;
+    }
+    
+}
+
+@media only screen and (min-width: 80em) {
+
+}
+
+@media only screen and (min-width: 100em) {
+            .portfolio-text {
+        display: none;
+    }
+    
     .portfolio-parent:hover .portfolio-text {
         position: absolute;
         top: 0;
@@ -738,35 +773,7 @@ ul, ol, p {
         right: 0;
         text-align: center;
     }
-
-    .description {
-        margin-bottom: .5rem;
-        font-size: 1.25em; 
-        font-weight: lighter;
-        letter-spacing: .5px;
-        padding-bottom: .75rem;
-        border-bottom: 1px solid #C9A253;
-        width: 60%;
-        text-align: center;
-        display: inline-block;
-        color: white;
-    }
-
-    .classification {
-        font-size: .8em;
-        padding-top: 1em;
-        letter-spacing: 1px;
-        font-weight: lighter;
-    }
     
-    .header-flex {
-        text-align: left;
-}
-
-    .col-flex {
-        text-align: left;
-    }
     
 }
-    
     
