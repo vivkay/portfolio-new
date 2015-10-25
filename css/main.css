@@ -388,9 +388,13 @@ ul, ol, p {
 .portfolio-parent {
     display: block;
     text-align: center;
+    position: relative;
 }
 
 .portfolio-text {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
     padding-top: 1rem;
     display: block;
     background-color: #333333;
@@ -499,7 +503,7 @@ ul, ol, p {
     margin-bottom: 0;
 }
 
-
+/* this is s size */
 @media only screen and (min-width: 25em) {
     
     .hero-title {
@@ -533,7 +537,7 @@ ul, ol, p {
 }
 
 
-
+/* this is m size */
 @media only screen and (min-width: 38em) {
 
     .body-ctr {
@@ -618,12 +622,22 @@ ul, ol, p {
         color: white;
         font-size: .25rem;
         letter-spacing: 1px;
-    }    
+    }   
+    
+    .portfolio-text {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        padding-top: 1rem;
+        display: block;
+        background-color: #333333;
+        color: #dfb45c;
+    }
     
 }
 
 
-
+/* this is l size */
 @media only screen and (min-width: 60em) {
     
     .name {
@@ -722,12 +736,14 @@ ul, ol, p {
     
 }
 
+/* this is xl size */
 @media only screen and (min-width: 80em) {
 
 }
 
+/* this is xxl size */
 @media only screen and (min-width: 100em) {
-            .portfolio-text {
+    .portfolio-text {
         display: none;
     }
     
