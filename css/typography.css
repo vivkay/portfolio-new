@@ -110,6 +110,10 @@ small, .milli {
   margin-bottom: 1.3rem;
 }
 
+.push-right, .push-r { 
+    margin-right: 2rem;
+}
+
 .push-none, .push-0 {
   margin-bottom: 0;
 }
@@ -273,6 +277,10 @@ small, .milli {
 
 .push-double, .push-2 {
   margin-bottom: 2.8000rem;
+}
+    
+.push-quadruple, .push-4 {
+  margin-bottom: 5.6000rem;
 }
 
 .push-half, .push-1-2 {

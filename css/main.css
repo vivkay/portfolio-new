@@ -61,7 +61,7 @@ ul, ol, p {
 }
 
 .island-flex {
-  padding: 0;
+    padding: 0;
     margin: 0;
 }
 
@@ -718,11 +718,6 @@ ul, ol, p {
         font-size: 1.5rem;
         padding: 1.5rem 4rem;
 }
-
-    .portfolio-parent {
-        position: relative;
-        display: block;
-    }
     
     .header-flex {
         text-align: left;
