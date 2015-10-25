@@ -1,9 +1,73 @@
+
+.sprite-ai {
+    display: inline-block;
+    background-image: transparent url("../img/sprites-ai.png") no-repeat 0 0;
+    height: 100px;
+    width: 100px;
+}
+
+.sprite-ai:hover {
+    position: 0 -100px;
+
+}
+
+
+
+/*
+.sprite {
+    display: inline-block;
+    background-image: url("../img/sprite.png");
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+
+.sprite span {
+    position: absolute;
+    background-image: url("../img/sprite.png");
+    height: -103.6px;
+    width: 100px;
+    position: relative;
+    opacity: 0;
+        -webkit-transition: opacity 0.5s;
+        -moz-transition:    opacity 0.5s;
+        -o-transition:      opacity 0.5s;
+}
+
+.sprite:hover span {
+    opacity: 1;
+}
+
+*/
+
+/*
+
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
+
+.sprite:hover {
+    background-position: 0 -103.6px;
+    -webkit-animation-duration: .75s;
+    animation-duration: .75s;
+    -webkit-animation-name: fade;
+    animation-name: fade;
+}
+*/
+
+
+/*
+.sprite {
+    display: inline-block;
+    background-image: transparent url("../img/sprite.png") no-repeat 0 0;
+    height: 100px;
+    width: 100px;
+}
+
+
 
 .icon-tool:hover {
     -webkit-animation-duration: .75s;
@@ -39,3 +103,5 @@
     opacity: 0;
   }
 }
+
+*/
