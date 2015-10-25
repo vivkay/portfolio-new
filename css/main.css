@@ -511,6 +511,10 @@ ul, ol, p {
     margin-bottom: 0;
 }
 
+.margins {
+    width: 80%;
+}
+
 /* this is s size */
 @media only screen and (min-width: 25em) {
     
