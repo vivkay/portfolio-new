@@ -35,6 +35,9 @@ a {
     text-decoration: none;
 }
 
+a:focus {
+    outline: solid 2px red;
+}
 
 .hero-title {
     color: ffff;
