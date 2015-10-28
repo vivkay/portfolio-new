@@ -39,6 +39,23 @@ a:focus {
     outline: solid 2px red;
 }
 
+.skip-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip-links a {
+    position: absolute;
+    top: -3em;
+}
+
+.skip-links a:focus {
+    top: 1em;
+    background-color: red;
+    outline: 1px solid white;
+}
+
 .hero-title {
     color: ffff;
     font-size: 1.75em;
