@@ -13,9 +13,11 @@
 </head>
 <body>
         
-<header class="hero">
+    
+    <!-- add aria roles (see thomas video - dashboard: accessibility) when/if add js to nav-->
+<header class="hero" role="banner">
     <div class="nav-wrapper">
-        <nav>
+        <nav role="navigation">
             <ul>
                 <li class="nav-link"><a class="{% if page.url == '/index.html'%}current{% endif %}" href="{{site.baseurl}}/index.html"><img class="logo" src="{{site.baseurl}}/img/logo-fat2.png"></a></li>
                 <li class="nav-link"><a class="{% if page.url == '/index.html#about'%}current{% endif %}" href="{{site.baseurl}}/index.html#about">ABOUT</a></li>
