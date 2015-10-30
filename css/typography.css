@@ -344,8 +344,8 @@ small, .milli {
   padding: 0.3500rem;
 }
 
-.mega-margin {
-    margin: 0 20%;
+.island-mega {
+    padding: 0 15%;
 }
 
 .gutter {

@@ -1,107 +1,93 @@
 
 .sprite-ai {
     display: inline-block;
-    background-image: transparent url("../img/sprites-ai.png") no-repeat 0 0;
-    height: 100px;
+    background: url("../img/sprites-ai.png") no-repeat 0 0;
+    height: 97px;
     width: 100px;
 }
 
 .sprite-ai:hover {
-    position: 0 -100px;
-
+    background-position: 0 -102px;
 }
 
 
-
-/*
-.sprite {
+.sprite-ps {
     display: inline-block;
-    background-image: url("../img/sprite.png");
-    height: 100px;
+    background: url("../img/sprites-ps.png") no-repeat 0 0;
+    height: 97px;
     width: 100px;
-    position: relative;
 }
 
-.sprite span {
-    position: absolute;
-    background-image: url("../img/sprite.png");
-    height: -103.6px;
-    width: 100px;
-    position: relative;
-    opacity: 0;
-        -webkit-transition: opacity 0.5s;
-        -moz-transition:    opacity 0.5s;
-        -o-transition:      opacity 0.5s;
+.sprite-ps:hover {
+    background-position: 0 -102px;
 }
 
-.sprite:hover span {
-    opacity: 1;
-}
 
-*/
-
-/*
-
-.animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-.sprite:hover {
-    background-position: 0 -103.6px;
-    -webkit-animation-duration: .75s;
-    animation-duration: .75s;
-    -webkit-animation-name: fade;
-    animation-name: fade;
-}
-*/
-
-
-/*
-.sprite {
+.sprite-id {
     display: inline-block;
-    background-image: transparent url("../img/sprite.png") no-repeat 0 0;
-    height: 100px;
+    background: url("../img/sprites-id.png") no-repeat 0 0;
+    height: 97px;
     width: 100px;
 }
 
-
-
-.icon-tool:hover {
-    -webkit-animation-duration: .75s;
-    animation-duration: .75s;
-    -webkit-animation-name: flip;
-    animation-name: flip;
-    -webkit-backface-visibility: visible !important;
-    backface-visibility: visible !important;
+.sprite-id:hover {
+    background-position: 0 -102px;
 }
 
-@-webkit-keyframes flip {
-  from {
-    -webkit-transform: perspective(400px);
-    transform: perspective(400px);
-  }
-
-  to {
-    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
-    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
-    opacity: 0;
-  }
+.sprite-ae {
+    display: inline-block;
+    background: url("../img/sprites-ae.png") no-repeat 0 0;
+    height: 97px;
+    width: 100px;
 }
 
-@keyframes flip {
-  from {
-    -webkit-transform: perspective(400px);
-    transform: perspective(400px);
-  }
-
-  to {
-    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
-    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
-    opacity: 0;
-  }
+.sprite-ae:hover {
+    background-position: 0 -102px;
 }
 
-*/
+.sprite-gh {
+    display: inline-block;
+    background: url("../img/sprites-gh.png") no-repeat 0 0;
+    height: 97px;
+    width: 100px;
+}
+
+.sprite-gh:hover {
+    background-position: 0 -102px;
+}
+
+.sprite-sketch {
+    display: inline-block;
+    background: url("../img/sprites-sketch.png") no-repeat 0 0;
+    height: 98px;
+    width: 100px;
+}
+
+.sprite-sketch:hover {
+    background-position: 0 -101px;
+}
+
+.sprite-bc {
+    display: inline-block;
+    background: url("../img/sprites-bc.png") no-repeat 0 0;
+    height: 97px;
+    width: 100px;
+}
+
+.sprite-bc:hover {
+    background-position: 0 -102px;
+}
+
+.sprite-brackets {
+    display: inline-block;
+    background: url("../img/sprites-brackets.png") no-repeat 0 0;
+    height: 99px;
+    width: 100px;
+}
+
+.sprite-brackets:hover {
+    background-position: 0 -98px;
+}
+
+
+

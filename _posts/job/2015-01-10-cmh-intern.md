@@ -1,8 +1,9 @@
 ---
 layout: default
-job-title: CMH Intern
-meta: Internship
-img: img/project6.jpg
+title: UX / UI Intern
+place: Canadian Museum of History
 year: 2015
+meta: Internship
+img: logo-cmh.jpg
 category: job
 ---

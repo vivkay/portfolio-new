@@ -231,12 +231,26 @@ ul, ol, p {
     margin: 0 5%;
 }
 
+.quote {
+    width: 100%;
+    text-align: center;
+    padding: 0 2em;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-weight: lighter;
+    color: grey;
+    
+}
+
 .body-ctr {
     width: 100%;
     text-align: center;
     padding: 0 2em;
     font-size: 1rem;
     line-height: 1.5;
+    letter-spacing: 1.5px;
 }
 
 .deck-flex {
@@ -261,21 +275,6 @@ ul, ol, p {
     font-size: 1rem;
     line-height: 1.5;
     padding: 0 2rem;
-}
-
-.quote {
-    text-align: center;
-    margin: 3rem 25%;
-    font-style: italic;  
-}
-
-
-.quote-mark {
-    font-size: 5rem;
-    font-weight: bold;
-    text-align: center;
-    width: 100%;
-    display: inline-block;
 }
 
 .headline {
@@ -315,6 +314,7 @@ ul, ol, p {
     display: inline-block;
     box-shadow: 2px 2px 2px #EAEAEA;
     width: 100%;
+    background-color: #333333;
 }
 
 .exp-box a {
@@ -347,6 +347,7 @@ ul, ol, p {
 
 .exp-box img {
     width: 100%;
+    background-color: black;
 }
 
 .exp-box figcaption {
@@ -362,6 +363,9 @@ ul, ol, p {
  color: #858585;
 }
 
+.black {
+ color: black;   
+}
 
 .white {
     color: white;
@@ -383,10 +387,10 @@ ul, ol, p {
 .bg-img {
     background: 
         linear-gradient(
-            rgba(0, 0, 0, 0.45),
-            rgba(0, 0, 0, 0.45)
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)
         ),
-        url("http://placehold.it/1200x800") no-repeat center top
+        url("../img/process.jpg") no-repeat center top
         ;
     background-size: cover;
     overflow: hidden;
@@ -395,6 +399,8 @@ ul, ol, p {
 
 .pf-box {
     width: 100%;
+    border: 1px solid #E6E6E6;
+    box-shadow: 3px 3px 3px #C0C0C0;
 }
 
 .portfolio-parent {
@@ -414,6 +420,7 @@ ul, ol, p {
 }
 
 .description {
+    margin-top: 1.25rem;
     margin-bottom: .5rem;
     font-size: 1.25em; 
     font-weight: lighter;
@@ -426,24 +433,12 @@ ul, ol, p {
     color: white;
 }
 
-.description-black {
-    margin-bottom: .5rem;
-    font-size: 1.25em; 
-    font-weight: lighter;
-    letter-spacing: .5px;
-    padding-bottom: .25rem;
-    border-bottom: 1px solid #C9A253;
-    width: 60%;
-    text-align: center;
-    display: inline-block;
-    color: black;
-}
-
 .classification {
     font-size: .8em;
     padding-top: 1em;
     letter-spacing: 1px;
     font-weight: lighter;
+    color: #dfb45c;
 }
 
 .classification-black {
@@ -453,7 +448,6 @@ ul, ol, p {
     font-weight: lighter;
     color: black;
 }
-
 
 .grey-ground {
     background-color: #4D4D4D;
