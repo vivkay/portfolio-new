@@ -22,7 +22,7 @@ changefreq: monthly
                 <ul class="clear">
                     <li class="pf-parent">
                         <a href="{{site.baseurl}}/{{project.link}}">
-                            <img class="box" src="http://placehold.it/1200x400" alt=""> 
+                            <img class="box" src="{{site.baseurl}}/img/{{project.img}}" alt=""> 
                         </a>
                     </li>
                 </ul>
@@ -32,6 +32,7 @@ changefreq: monthly
                 <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 island-2">
                     <h1 class="zetta"> {{project.client}} </h1>
                     <h3> {{project.title}} </h3>
+                    <p class="note">{{project.note}}</p>
                 </div>
                 <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 island-2">
                     <p class="mega">{{project.summary}}</p>

@@ -638,6 +638,13 @@ ul, ol, p {
     padding: 2rem;
 }
 
+.note {
+    background-color: #dfb45c;
+    color: white;
+    padding: .5rem;
+    width: 25%;
+}
+
 /* this is s size */
 @media only screen and (min-width: 25em) {
     
