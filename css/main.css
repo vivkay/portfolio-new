@@ -407,7 +407,7 @@ ul, ol, p {
             rgba(0, 0, 0, 0.65),
             rgba(0, 0, 0, 0.65)
         ),
-        url("../img/hello-2.jpg") no-repeat center top
+        url("../img/hello-3.jpg") no-repeat center top
         ;
     background-size: cover;
     overflow: hidden;
@@ -558,6 +558,15 @@ ul, ol, p {
 
 .margins {
     width: 80%;
+}
+
+.social-icon {
+    width: 40%;
+    opacity: .8;
+}
+
+.social-icon:hover {
+    opacity: 1;
 }
 
 /* this is s size */
@@ -789,6 +798,10 @@ ul, ol, p {
     .col-flex {
         text-align: left;
     }
+    
+    .social-icon {
+        width: 20%;
+}
     
 }
 
