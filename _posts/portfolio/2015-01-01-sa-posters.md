@@ -1,6 +1,7 @@
 ---
 layout: case-study-a
-title: The Liv & Viv Show
+title: Ideation and Poster Design
+client: Algonquin College Students'Association
 meta: Creativework
 category: portfolio
 type: Branding & Promotion

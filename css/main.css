@@ -194,6 +194,40 @@ ul, ol, p {
     background-color: #C9A253; 
 }
 
+.btn-gold-inverse {
+    font-size: 1rem;
+    padding: 1.25rem 1.5rem;
+    text-decoration: none; 
+    display: block;
+    color: black;
+    outline: 2px solid #dfb45c; 
+    text-align: center;
+    margin: 2em auto 0 auto;
+    letter-spacing: 1px;
+    font-weight: thin;
+    max-width: 25em;
+    font-weight: lighter;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.btn-gold-inverse:hover {
+    font-size: 1rem;
+    padding: 1.25rem 1.5rem;
+    text-decoration: none; 
+    display: block;
+    color: white;
+    background-color: #dfb45c; 
+    text-align: center;
+    margin: 2em auto 0 auto;
+    letter-spacing: 1px;
+    font-weight: thin;
+    max-width: 25em;
+    font-weight: lighter;
+}
+
 .btn-gold-footer {
     font-size: 1.25rem;
     padding: 3rem;
@@ -375,7 +409,7 @@ ul, ol, p {
     background-color: #F9F1E1;
 }
 
-.black-ground {
+.bg-black {
     background-color: black;
 }
 
@@ -418,6 +452,21 @@ ul, ol, p {
     width: 100%;
     border: 1px solid #E6E6E6;
     box-shadow: 3px 3px 3px #C0C0C0;
+}
+
+.box {
+    width: 100%;
+}
+
+.pf-parent {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.clear {
+    padding: 0;
+    margin: 0;
 }
 
 .portfolio-parent {

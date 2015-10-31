@@ -347,7 +347,7 @@ small, .milli {
 .island-mega {
     padding: 2rem 15%;
 }    
-
+    
 .gutter {
   padding-left: 1.4rem;
   padding-right: 1.4rem;
@@ -521,6 +521,7 @@ small, .milli {
   padding-right: 3.0000rem;
 }
 
+        
 .gutter-half, .gutter-1-2 {
   padding-left: 0.7500rem;
   padding-right: 0.7500rem;
@@ -647,6 +648,14 @@ small, .milli {
 
 .pad-bottom-quarter, .pad-b-1-4 {
   padding-bottom: 0.3750rem;
+}
+    
+.pad-left, .pad-l {
+    padding-left: 15%;
+}
+    
+.pad-right, .pad-r {
+    padding-right: 15%;
 }
 
 .island {

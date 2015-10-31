@@ -1,6 +1,7 @@
 ---
 layout: case-study-a
-title: Explouria Branding and UI
+title: Branding and UI
+client: Explouria
 meta: Creativework
 category: portfolio
 type: Branding Design and UI Mockups
