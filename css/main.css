@@ -371,6 +371,10 @@ ul, ol, p {
     color: white;
 }
 
+.bg-light {
+    background-color: #F9F1E1;
+}
+
 .black-ground {
     background-color: black;
 }
@@ -391,6 +395,19 @@ ul, ol, p {
             rgba(0, 0, 0, 0.65)
         ),
         url("../img/process.jpg") no-repeat center top
+        ;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+}
+
+.bg-img-2 {
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)
+        ),
+        url("../img/hello-2.jpg") no-repeat center top
         ;
     background-size: cover;
     overflow: hidden;
