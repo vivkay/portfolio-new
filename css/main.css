@@ -611,11 +611,31 @@ ul, ol, p {
 
 .social-icon {
     width: 40%;
-    opacity: .8;
+    opacity: 1;
 }
 
 .social-icon:hover {
-    opacity: 1;
+    opacity: .3;
+}
+
+.divider {
+    text-align: center;
+    border-bottom: 2px solid #F9F1E1;
+    width: 90%;
+    height: 2rem;
+    margin-bottom: 4rem;
+    display: block;
+    padding: 2rem;
+}
+
+.divider-gold {
+    text-align: center;
+    border-bottom: 2px solid #dfb45c;
+    width: 90%;
+    height: 2rem;
+    margin-bottom: 4rem;
+    display: block;
+    padding: 2rem;
 }
 
 /* this is s size */
