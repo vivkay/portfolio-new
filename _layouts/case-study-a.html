@@ -10,36 +10,45 @@ layout: default
 
 <div class="grid">
     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 island-2">
-        <h3 class="header-flex">The Client</h3>
-        <p class="col-flex">{{ page.client-about }}</p>
+        <h2 class="zetta">The Client</h3>
+        <p class="body">{{ page.client-about }}</p>
     </div>
     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 island-2">
-        <h3 class="header-flex">My Role</h3>
-        <p class="col-flex">{{ page.role }}</p>
+        <h2 class="zetta">My Role</h3>
+        <p class="body">{{ page.role }}</p>
     </div>
     
 <div class="grid">
     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 island-2">
         <h3 class="header-flex">Target Audience</h3>
-        <p class="col-flex">{{ page.audience }}</p>
+        <p class="mega">{{ page.audience }}</p>
     </div>
     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 island-2">
         <h3 class="header-flex">Research</h3>
-        <p class="col-flex">{{ page.research }}</p>
+        <p class="body">{{ page.research }}</p>
     </div>
 
     <img class="w100" src="http://placehold.it/1200x640" alt="" class="centered">  
 </div>
 
 <div class="grid">
-    <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-1-2 island">
-        <h2 class="section-header">Design Solution</h2>
-        <p class="kilo">{{ page.solution }}</p>
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island-2">
+        <h2 class="zetta">Key Challenge</h2>
+        <h3 class="grey">{{ page.challenge-summary }}</h3>
     </div>
-    <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-1-2 island">
-        <h2 class="section-header">Design Challenges</h2>
-        <p class="kilo">{{ page.challenges }}</p>
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-2 island">
+        <p class="body pad-t-flex">{{ page.challenge }}</p>
+</div>
+    
+<div class="grid">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island-2">
+        <h2 class="zetta">Design Solution</h2>
+        <h3 class="grey">{{ page.solution-summary }}</p>
     </div>
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island">
+        <p class="body pad-t-flex">{{ page.solution }}</p>
+</div>
+
 </div>
 
 <div class="island push-2">

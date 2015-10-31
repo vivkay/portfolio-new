@@ -249,7 +249,12 @@ h4, .giga {
 
 h5, .mega {
   font-size: 1.1250rem;
-  line-height: 1.2444;
+  line-height: 1.3444;
+}
+    
+.body {
+    font-size: 1.1250rem;
+    line-height: 1.6;
 }
 
 h6, .kilo {
@@ -300,6 +305,11 @@ small, .milli {
   padding-top: 1.4rem;
 }
 
+/*changed in media queries*/
+.pad-t-flex {
+    padding-top: 0;
+}
+    
 .pad-bottom, .pad-b {
   padding-bottom: 1.4rem;
 }
@@ -372,6 +382,11 @@ small, .milli {
 
 @media only screen and (min-width: 60em) {
 
+.pad-t-flex {
+    padding-top: 2rem;
+}
+    
+    
 html {
   font-size: 120%;
   line-height: 1.5;
