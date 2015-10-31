@@ -653,6 +653,9 @@ ul, ol, p {
 
 .full-bleed {
     width: 100%;
+    height: auto; 
+    display: block;
+    overflow: hidden;
 }
 
 /* this is s size */

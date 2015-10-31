@@ -27,9 +27,14 @@ layout: default
         <h3 class="header-flex">Research</h3>
         <p class="body">{{ page.research }}</p>
     </div>
-
-    <img class="w100" src="http://placehold.it/1200x640" alt="" class="centered">  
 </div>
+    
+    <div class="grid">
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
+            <img class="full-bleed" src="{{baseurl}}/img/{{page.img-3}}">
+        </div>
+    </div>
+    
 
 <div class="grid">
     <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island-2">
@@ -40,12 +45,6 @@ layout: default
         <p class="body pad-t-flex">{{ page.challenge }}</p>
 </div>
     
-    <div class="grid">
-        <div class="unit unit-xs-1">
-            <img class="full-bleed" src="{{baseurl}}/img/{{page.img-3}}">
-        </div>
-    </div>
-    
 <div class="grid">
     <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island-2">
         <h2 class="zetta">Design Solution</h2>
@@ -55,6 +54,12 @@ layout: default
         <p class="body pad-t-flex">{{ page.solution }}</p>
 </div>
 
+    <div class="grid">
+        <div class="unit unit-xs-1">
+            <img class="full-bleed" src="{{ baseurl }}/img/{{ page.img-4 }}" alt="{{ page.img-4-alt }}">
+        </div>
+    </div>
+    
 </div>
 
 <div class="island push-2">
