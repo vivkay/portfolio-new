@@ -7,7 +7,7 @@ changefreq: monthly
 ---
 
     <div class="hero-content">
-        <img class="logo-main" src="{{site.baseurl}}/img/logo-vk-red.svg" alt="Vivienne Kay">
+        <img class="logo-main" src="{{ site.baseurl }}/img/logo-vk-red.svg" alt="Vivienne Kay">
         <h1 class="hero-title">Vivienne Kay</h1>
         <p class="hero-tag">awesome design gives me tingles</p>
         <a class="btn-cta" href="#contact">Say Hello</a>
@@ -22,8 +22,8 @@ changefreq: monthly
             <div class="unit unit-xs-1">
                 <ul class="clear">
                     <li class="pf-parent">
-                        <a href="{{site.baseurl}}/{{project.link}}">
-                            <img class="box" src="{{site.baseurl}}/img/{{project.img}}" alt=""> 
+                        <a href="{{ site.baseurl }}/{{ project.link }}">
+                            <img class="box" src="{{ site.baseurl }}/img/{{ project.img }}" alt=""> 
                         </a>
                     </li>
                 </ul>
@@ -31,14 +31,14 @@ changefreq: monthly
         </div>
         <div class="grid">
                 <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 island-2">
-                    <h1 class="zetta"> {{project.client}} </h1>
-                    <h3> {{project.title}} </h3>
-                    <p class="note">{{project.note}}</p>
+                    <h1 class="zetta"> {{ project.client }} </h1>
+                    <h3> {{ project.title }} </h3>
+                    <p class="note">{{ project.note }}</p>
                 </div>
                 <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 island-2">
-                    <p class="mega">{{project.summary}}</p>
+                    <p class="mega">{{ project.summary }}</p>
                     <div class="align-right">
-                    <a class="btn-gold-inverse" href="{{site.baseurl}}/{{project.link}}">view case-study</a>
+                    <a class="btn-gold-inverse" href="{{ site.baseurl }}/{{ project.link }}">view case-study</a>
                 </div>
             </div>
             <div class="unit unit-s-1 divider centered"></div>
@@ -48,32 +48,6 @@ changefreq: monthly
             <a class="btn-gold centered" href="https://www.behance.net/vivkay">see more work on Behance</a>
         </div>
     </section>
-        
-<!--
-    <section id="portfolio" class="push-4">
-        <h2 class="section-header">Portfolio</h2>
-        <div class="grid">
-            {% for project in site.categories.portfolio %}
-            <div class="unit unit-xs-1">
-                <ul>
-                    <li class="portfolio-parent">
-                        <a href="{{site.baseurl}}/{{site.categories.portfolio}}">
-                            <img class="pf-box" src="http://placehold.it/1200x400" alt=""> 
-                            <div class="portfolio-text">
-                                <p class="description">{{project.title}}</p>
-                                <p class="classification">{{project.type}}</p>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            {% endfor %}
-        </div>
-        <div class="pull-2">
-            <a class="btn-gold centered" href="https://www.behance.net/vivkay">see more work on Behance</a>
-        </div>
-    </section>
--->
        
         <section id="process" class="centered bg-img pad-b">
             <h2 class="section-header white">Process</h2>
@@ -97,10 +71,10 @@ changefreq: monthly
                 {% for project in site.categories.job %}
                 <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-4 island">
                     <div class="exp-box">
-                        <img src="{{site.baseurl}}/img/{{project.img}}" alt=""> 
+                        <img src="{{ site.baseurl }}/img/{{ project.img }}" alt=""> 
                         <div class="exp-txt-wrap">
-                            <p class="description">{{project.title}}</p>
-                            <p class="classification">{{project.place}} | {{project.year}}</p>
+                            <p class="description">{{ project.title }}</p>
+                            <p class="classification">{{ project.place }} | {{ project.year }}</p>
                         </div>
                     </div>
                 </div>
