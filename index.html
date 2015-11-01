@@ -6,19 +6,19 @@ priority: 1.0
 changefreq: monthly
 ---
 
-    <div class="hero-content">
-        <img class="logo-main" src="{{ site.baseurl }}/img/logo-vk-red.svg" alt="Vivienne Kay">
-        <h1 class="hero-title">Vivienne Kay</h1>
-        <p class="hero-tag">awesome design gives me tingles</p>
-        <a class="btn-cta" href="#contact">Say Hello</a>
-    </div>    
+<div class="hero-content">
+    <img class="logo-main" src="{{ site.baseurl }}/img/logo-vk-red.svg" alt="Vivienne Kay">
+    <h1 class="hero-title">Vivienne Kay</h1>
+    <p class="hero-tag">awesome design gives me tingles</p>
+    <a class="btn-cta" href="#contact">Say Hello</a>
+</div>    
 
-    <main role="main" id="main">
+<main role="main" id="main">
     
-    <section id="portfolio">
-        <h2 class="section-header">Portfolio</h2>
-        <div class="grid">
-            {% for project in site.categories.portfolio %}
+<section id="portfolio">
+    <h2 class="section-header">Portfolio</h2>
+    <div class="grid">
+        {% for project in site.categories.portfolio %}
             <div class="unit unit-xs-1">
                 <ul class="clear">
                     <li class="pf-parent">
@@ -30,115 +30,112 @@ changefreq: monthly
             </div>
         </div>
         <div class="grid">
-                <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 island-2">
-                    <h1 class="zetta"> {{ project.client }} </h1>
-                    <h3> {{ project.title }} </h3>
-                    <p class="note">{{ project.note }}</p>
-                </div>
-                <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 island-2">
-                    <p class="mega">{{ project.summary }}</p>
-                    <div class="align-right">
-                    <a class="btn-gold-inverse" href="{{ site.baseurl }}/{{ project.link }}">view case-study</a>
+            <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 island-2">
+                <h1 class="zetta"> {{ project.client }} </h1>
+                <h3> {{ project.title }} </h3>
+                <p class="note">{{ project.note }}</p>
+            </div>
+            <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 island-2">
+                <p class="mega">{{ project.summary }}</p>
+                <div class="align-right">
+                <a class="btn-gold-inverse" href="{{ site.baseurl }}/{{ project.link }}">view case-study</a>
                 </div>
             </div>
             <div class="unit unit-s-1 divider centered"></div>
-            {% endfor %}
-        </div>
-        <div class="pull-2">
-            <a class="btn-gold centered" href="https://www.behance.net/vivkay">see more work on Behance</a>
-        </div>
-    </section>
+    {% endfor %}
+    </div>
+    <div class="pull-2">
+        <a class="btn-gold centered" href="https://www.behance.net/vivkay">see more work on Behance</a>
+    </div>
+</section>
        
-        <section id="process" class="centered bg-img pad-b">
-            <h2 class="section-header white">Process</h2>
-            <p class="body-ctr white">I use an agile process – integrating client and team feedback – to maximize efficiency and quality for every project. I like to start new projects with research, brainstorming, and sketching or wireframes; because sometimes the greatest ideas are born from a scribble dancing across a napkin.</p>
-            <div class="push-2">
-                <a class="btn-gold" href="https://www.behance.net/vivkay">view process case-study</a>
-            </div>
-        </section>
+<section id="process" class="centered bg-img pad-b">
+    <h2 class="section-header white">Process</h2>
+    <p class="body-ctr white">I use an agile process – integrating client and team feedback – to maximize efficiency and quality for every project. I like to start new projects with research, brainstorming, and sketching or wireframes; because sometimes the greatest ideas are born from a scribble dancing across a napkin.</p>
+    <div class="push-2">
+        <a class="btn-gold" href="https://www.behance.net/vivkay">view process case-study</a>
+    </div>
+</section>
         
-        <section id="experience" class="centered push-2">
-            <h2 class="section-header">Experience</h2>
-            <div class="grid">
-                <div class="unit unit-s-1 centered island-mega push-2">
-                    <p class="quote">"Vivienne’s keen eye for design and ability to turn things around in record breaking times make her a great asset to any team. Her editorial skills we're a tremendous help and coincided well in creating compelling and intuitive design."</p>
-                </div>
-                    <p class="body-ctr">Michel Joanisse, Front End Developer<br><span class="body-ctr bold">Canadian Museum of History</span></p>
-                
-            </div>
-
-                <div class="grid">
-                {% for project in site.categories.job %}
-                <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-4 island">
-                    <div class="exp-box">
-                        <img src="{{ site.baseurl }}/img/{{ project.img }}" alt=""> 
-                        <div class="exp-txt-wrap">
-                            <p class="description">{{ project.title }}</p>
-                            <p class="classification">{{ project.place }} | {{ project.year }}</p>
-                        </div>
+<section id="experience" class="centered push-2">
+    <h2 class="section-header">Experience</h2>
+    <div class="grid">
+        <div class="unit unit-s-1 centered island-mega push-2">
+            <p class="quote">"Vivienne’s keen eye for design and ability to turn things around in record breaking times make her a great asset to any team. Her editorial skills we're a tremendous help and coincided well in creating compelling and intuitive design."</p>
+        </div>
+            <p class="body-ctr">Michel Joanisse, Front End Developer<br><span class="body-ctr bold">Canadian Museum of History</span></p>
+    </div>
+    <div class="grid">
+        {% for project in site.categories.job %}
+            <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-4 island">
+                <div class="exp-box">
+                    <img src="{{ site.baseurl }}/img/{{ project.img }}" alt=""> 
+                    <div class="exp-txt-wrap">
+                        <p class="description">{{ project.title }}</p>
+                        <p class="classification">{{ project.place }} | {{ project.year }}</p>
                     </div>
                 </div>
-                {% endfor %}
             </div>
-        </section>
+        {% endfor %}
+    </div>
+</section>
         
-        <section id="toolbelt" class="bg-light island-sandwich">
-            <h2 class="section-header">Toolbelt</h2>
-            <p class="body-ctr island-mega">In addition to the ever-trusty pen and paper, these are a few of the software programs I currently use in my workflow.</p>
-            <div class="centered margins">
-                <div class="grid">
-                    <div class="unit unit-s-1-4 unit-m-1-4 unit-l-1-4 unit-xl-1-8 island">
-                        <a class="sprite-ai"><span></span></a>
-                    </div>
-                    <div class="unit unit-s-1-4 unit-m-1-4 unit-l-1-4 unit-xl-1-8 island">
-                        <a class="sprite-ps"><span></span></a>
-                    </div>
-                    <div class="unit unit-s-1-4 unit-m-1-4 unit-l-1-4 unit-xl-1-8 island">
-                        <a class="sprite-id"><span></span></a>
-                    </div>
-                    <div class="unit unit-s-1-4 unit-m-1-4 unit-l-1-4 unit-xl-1-8 island">
-                        <a class="sprite-ae"><span></span></a>
-                    </div>
-                    <div class="unit unit-s-1-4 unit-m-1-4 unit-l-1-4 unit-xl-1-8 island">
-                        <a class="sprite-gh"><span></span></a>
-                    </div>
-                    <div class="unit unit-s-1-4 unit-m-1-4 unit-l-1-4 unit-xl-1-8 island">
-                        <a class="sprite-sketch"><span></span></a>
-                    </div>
-                    <div class="unit unit-s-1-4 unit-m-1-4 unit-l-1-4 unit-xl-1-8 island">
-                        <a class="sprite-bc"><span></span></a>
-                    </div>
-                    <div class="unit unit-s-1-4 unit-m-1-4 unit-l-1-4 unit-xl-1-8 island">
-                        <a class="sprite-brackets"><span></span></a>
-                    </div>
-                </div>
+<section id="toolbelt" class="bg-light island-sandwich">
+    <h2 class="section-header">Toolbelt</h2>
+    <p class="body-ctr island-mega">In addition to the ever-trusty pen and paper, these are a few of the software programs I currently use in my workflow.</p>
+    <div class="centered margins">
+        <div class="grid">
+            <div class="unit unit-s-1-4 unit-m-1-4 unit-l-1-4 unit-xl-1-8 island">
+                <a class="sprite-ai"><span></span></a>
             </div>
-        </section>
+            <div class="unit unit-s-1-4 unit-m-1-4 unit-l-1-4 unit-xl-1-8 island">
+                <a class="sprite-ps"><span></span></a>
+            </div>
+            <div class="unit unit-s-1-4 unit-m-1-4 unit-l-1-4 unit-xl-1-8 island">
+                <a class="sprite-id"><span></span></a>
+            </div>
+            <div class="unit unit-s-1-4 unit-m-1-4 unit-l-1-4 unit-xl-1-8 island">
+                <a class="sprite-ae"><span></span></a>
+            </div>
+            <div class="unit unit-s-1-4 unit-m-1-4 unit-l-1-4 unit-xl-1-8 island">
+                <a class="sprite-gh"><span></span></a>
+            </div>
+            <div class="unit unit-s-1-4 unit-m-1-4 unit-l-1-4 unit-xl-1-8 island">
+                <a class="sprite-sketch"><span></span></a>
+            </div>
+            <div class="unit unit-s-1-4 unit-m-1-4 unit-l-1-4 unit-xl-1-8 island">
+                <a class="sprite-bc"><span></span></a>
+            </div>
+            <div class="unit unit-s-1-4 unit-m-1-4 unit-l-1-4 unit-xl-1-8 island">
+                <a class="sprite-brackets"><span></span></a>
+            </div>
+        </div>
+    </div>
+</section>
             
-            <section id="contact" class="centered bg-img-2 pad-b island-mega">
-            <h2 class="section-header white">Hello</h2>
-            <p class="body-ctr white">I love talking shop. Whether you want to work together, or just want to chat about design, feel free to reach out!</p>
-                
-                <div class="grid">
-                    <div class="unit unit-s-1-4 unit-m-1-4 unit-l-1-4 unit-xl-1-4 island">
-                        <a href="mailto:hello@vivkay.com"><img class="social-icon" src="{{site.baseurl}}/img/social-email.png"></a>
-                    </div>
-                    <div class="unit unit-s-1-4 unit-m-1-4 unit-l-1-4 unit-xl-1-4 island">
-                        <a href="https://twitter.com/viv_kay"><img class="social-icon" src="{{site.baseurl}}/img/social-twitter.png"></a>
-                    </div>
-                    <div class="unit unit-s-1-4 unit-m-1-4 unit-l-1-4 unit-xl-1-4 island">
-                        <a href="https://www.linkedin.com/in/vivkay"><img class="social-icon" src="{{site.baseurl}}/img/social-linkedin.png"></a>
-                    </div>
-                    <div class="unit unit-s-1-4 unit-m-1-4 unit-l-1-4 unit-xl-1-4 island">
-                        <a href="https://vimeo.com/user36563588"><img class="social-icon" src="{{site.baseurl}}/img/social-vimeo.png"></a>
-                    </div>
-                </div>
-                <div class="unit unit-s-1 divider-gold centered"></div>
-        </section>
+<section id="contact" class="centered bg-img-2 pad-b island-mega">
+    <h2 class="section-header white">Hello</h2>
+    <p class="body-ctr white">I love talking shop. Whether you want to work together, or just want to chat about design, feel free to reach out!</p>
+    <div class="grid">
+        <div class="unit unit-s-1-4 unit-m-1-4 unit-l-1-4 unit-xl-1-4 island">
+            <a href="mailto:hello@vivkay.com"><img class="social-icon" src="{{site.baseurl}}/img/social-email.png"></a>
+        </div>
+        <div class="unit unit-s-1-4 unit-m-1-4 unit-l-1-4 unit-xl-1-4 island">
+            <a href="https://twitter.com/viv_kay"><img class="social-icon" src="{{site.baseurl}}/img/social-twitter.png"></a>
+        </div>
+        <div class="unit unit-s-1-4 unit-m-1-4 unit-l-1-4 unit-xl-1-4 island">
+            <a href="https://www.linkedin.com/in/vivkay"><img class="social-icon" src="{{site.baseurl}}/img/social-linkedin.png"></a>
+        </div>
+        <div class="unit unit-s-1-4 unit-m-1-4 unit-l-1-4 unit-xl-1-4 island">
+            <a href="https://vimeo.com/user36563588"><img class="social-icon" src="{{site.baseurl}}/img/social-vimeo.png"></a>
+        </div>
+    </div>
+    <div class="unit unit-s-1 divider-gold centered"></div>
+</section>
         
-    </main>
-    
-    <footer role="contentinfo">
-        <a class="btn-gold-footer" href="#top">Back to Top</a>
-    </footer>
+</main>
+
+<footer role="contentinfo">
+    <a class="btn-gold-footer" href="#top">Back to Top</a>
+</footer>
     
