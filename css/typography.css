@@ -708,5 +708,9 @@ small, .milli {
   padding-left: 0.3750rem;
   padding-right: 0.3750rem;
 }
+    
+.island-mega {
+    padding: 2rem 25%;
+}  
 
 }

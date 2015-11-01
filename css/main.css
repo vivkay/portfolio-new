@@ -403,6 +403,10 @@ ul, ol, p {
  color: #858585;
 }
 
+.gold {
+    color: #dfb45c;
+}
+
 .black {
  color: black;   
 }
@@ -549,7 +553,7 @@ ul, ol, p {
 
 .breadcrumb-back {
     width: 100%;
-    background-color: red;
+    background-color: black;
     color: white;
     height: 6rem;
     padding: 1rem;
@@ -569,7 +573,7 @@ ul, ol, p {
 
 .breadcrumb-fwd {
     width: 100%;
-    background-color: gold;
+    background-color: #dfb45c;
     color: black;
     height: 6rem;
     display: block;
@@ -658,7 +662,7 @@ ul, ol, p {
     overflow: hidden;
 }
 
-.topic-header {
+.underline {
     border-bottom: 2px solid #dfb45c; 
     padding-bottom: 5px;
 }

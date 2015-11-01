@@ -5,29 +5,26 @@ layout: default
 <h1 class="project-title">{{ project-title }}</h1>
 <h3 class="centered client-name">{{ subtitle }}</h3>
 
-<h2 class="section-header">Project Overview</h2>
-<p class="body-ctr">{{ page.overview }}</p>
+
+<div class="grid">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 centered island-mega">
+        <h2 class="zetta">About {{ page.client }}</h2>
+        <h3 class="gold">{{ page.client-summary }}</h3>
+        <h3 class="body grey">{{ page.client-about }}</h3>
+    </div>
+</div>
 
 <div class="grid">
     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 island-2">
-        <h2 class="zetta topic-header">The Client</h3>
-        <p class="body">{{ page.client-about }}</p>
+        <h2 class="zetta underline">Project Goals</h2>
+        <h3 class="grey">{{ page.goal-summary }}</h3>
+        <p class="body pad-t-flex">{{ page.goal }}</p>
     </div>
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 island-2">
-        <h2 class="zetta topic-header">My Role</h3>
-        <p class="body">{{ page.role }}</p>
-    </div>
-</div>
-    
-<div class="grid">
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 island-2">
-        <h3 class="header-flex">Target Audience</h3>
-        <p class="mega">{{ page.audience }}</p>
-    </div>
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 island-2">
-        <h3 class="header-flex">Research</h3>
-        <p class="body">{{ page.research }}</p>
-    </div>
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island-2">
+        <h2 class="zetta underline">My Role</h2>
+        <h3 class="grey">{{ page.role-summary }}</h3>
+        <p class="body pad-t-flex">{{ page.role }}</p>
+    </div>   
 </div>
 
 <div class="grid">
@@ -37,32 +34,47 @@ layout: default
 </div>
 
 <div class="grid">
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island-2">
-        <h2 class="zetta topic-header">Workflow</h2>
-        <h3 class="grey">{{ page.workflow-summary }}</p>
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 island-2">
+        <h2 class="zetta underline">Process</h2>
+        <h3 class="grey">{{ page.process-summary }}</h3>
+        <p class="body pad-t-flex">{{ page.process }}</p>
     </div>
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island-2">
+        <h2 class="zetta underline">Workflow</h2>
+        <h3 class="grey">{{ page.workflow-summary }}</h3>
         <p class="body pad-t-flex">{{ page.workflow }}</p>
+    </div>   
+</div>
+  
+<div class="grid">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island-2">
+        <h2 class="zetta underline">Key Challenges</h2>
+        <h3 class="grey">{{ page.challenge-summary }}</h3>
+        <p class="body pad-t-flex">{{ page.challenge }}</p>
+    </div>
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-2 island-2">
+        <h2 class="zetta underline">Design Solution</h2>
+        <h3 class="grey">{{ page.solution-summary }}</h3>
+        <p class="body pad-t-flex">{{ page.solution }}</p>
     </div>
 </div>
-
 
 <div class="grid">
     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
         <img class="full-bleed" src="{{site.baseurl}}/img/{{page.img-3}}" alt="{{page.img-3-alt}}">
     </div>
 </div>
-    
+
 <div class="grid">
     <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island-2">
-        <h2 class="zetta topic-header">Key Challenges</h2>
-        <h3 class="grey">{{ page.challenge-summary }}</h3>
-        <p class="body pad-t-flex">{{ page.challenge }}</p>
+        <h2 class="zetta underline">Bonus Bits</h2>
+        <h3 class="grey">{{ page.bonus-summary }}</h3>
+        <p class="body pad-t-flex">{{ page.bonus }}</p>
     </div>
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-2 island-2">
-        <h2 class="zetta topic-header">Design Solution</h2>
-        <h3 class="grey">{{ page.solution-summary }}</p>
-        <p class="body pad-t-flex">{{ page.solution }}</p>
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island-2">
+        <h2 class="zetta underline">Learning Points</h2>
+        <h3 class="grey">{{ page.learning-summary }}</h3>
+        <p class="body pad-t-flex">{{ page.learning }}</p>
     </div>
 </div>
 
@@ -73,18 +85,11 @@ layout: default
 </div>
 
 <div class="grid">
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island-2">
-        <h2 class="zetta topic-header">Bonus Bits</h2>
-        <h3 class="grey">{{ page.contributions }}</p>
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 centered island-mega">
+        <h2 class="zetta underline">The finish, but not the end</h2>
+        <h3 class="grey">{{ page.outcomes-summary }}</h3>
+        <p class="body pad-t-flex">{{ page.outcomes }}</p>
     </div>
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island">
-        <p class="body pad-t-flex">{{ page.solution }}</p>
-    </div>
-</div>
-
-<div class="island push-2">
-    <h2 class="section-header">Project Outcomes</h2>
-    <p class="body-ctr">{{ page.outcomes }}</p>
 </div>
 
 <div class="grid">
