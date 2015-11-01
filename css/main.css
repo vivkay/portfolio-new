@@ -564,7 +564,7 @@ ul, ol, p {
 }
 
 .breadcrumb-back:hover {
-    background-color: #E60000;
+    background-color: #363636;
 }
 
 .breadcrumb-back:active{
@@ -581,6 +581,14 @@ ul, ol, p {
     text-align: right;
     padding-right: 20%;
     padding-top: 1.5rem;
+}
+
+.breadcrumb-fwd:hover {
+    background-color: #C9A253;
+}
+
+.breadcrumb-fwd:active{
+    background-color: #CC0000;
 }
 
 .hint-crumb {
