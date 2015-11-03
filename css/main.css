@@ -253,6 +253,10 @@ ul, ol, p {
     margin: 0 auto;
 }
 
+.center-flex {
+    text-align: left;
+}
+
 .body-ctr-flex {
     text-align: center;
     margin: 3rem 1.5rem;
@@ -274,7 +278,6 @@ ul, ol, p {
     font-style: italic;
     font-weight: lighter;
     color: grey;
-    
 }
 
 .body-ctr {
@@ -284,6 +287,11 @@ ul, ol, p {
     font-size: 1rem;
     line-height: 1.5;
     letter-spacing: 1.5px;
+}
+
+.deck {
+    max-width: 38em;
+    margin: 0 auto;
 }
 
 .deck-flex {
@@ -712,7 +720,7 @@ ul, ol, p {
 @media only screen and (min-width: 38em) {
 
     .body-ctr {
-    padding: 0 10%;
+        padding: 0 10%;
     }
     
     .section-header {
@@ -772,6 +780,9 @@ ul, ol, p {
         margin-bottom: 1rem;
     }
  
+    .center-flex {
+        text-align: center;
+    }
 }
 
 /* this is l size */
