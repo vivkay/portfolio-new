@@ -18,8 +18,9 @@ changefreq: monthly
 <section class="jump-wrapper">
     <div class="jump-target" id="portfolio"></div>
     <h2 class="section-header">Portfolio</h2>
-    <div class="grid">
-        {% for project in site.categories.portfolio %}
+    
+    {% for project in site.categories.portfolio %}
+        <div class="grid">
             <div class="unit unit-xs-1">
                 <ul class="clear">
                     <li class="pf-parent">
@@ -32,8 +33,8 @@ changefreq: monthly
         </div>
         <div class="grid body-wrapper pad-t-1-2 pad-b-1-2">
             <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 gutter">
-                <h1 class="zetta"> {{ project.client }} </h1>
-                <h3 class="grey"> {{ project.title }} </h3>
+                <h2 class="zetta push-1-2"> {{ project.client }} </h2>
+                <h3 class="grey push-1"> {{ project.title }} </h3>
                 <p class="note">{{ project.note }}</p>
             </div>
             <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 gutter">
@@ -42,9 +43,12 @@ changefreq: monthly
                 <a class="btn-gold-inverse" href="{{ site.baseurl }}/{{ project.link }}">view case-study</a>
                 </div>
             </div>
-            <div class="unit unit-s-1 divider centered"></div>
+        </div>
+        <div class="gutter">
+            <hr class="divider">
+        </div>
     {% endfor %}
-    </div>
+    
     <div class="pull-2">
         <a class="btn-gold centered" href="https://www.behance.net/vivkay">see more work on Behance</a>
     </div>

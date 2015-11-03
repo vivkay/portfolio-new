@@ -36,7 +36,7 @@ a {
 }
 
 a:focus {
-    outline: solid 2px red;
+    outline: solid 2px black;
 }
 
 .skip-links {
@@ -262,11 +262,6 @@ ul, ol, p {
 
 .wrapper-margin {
     margin: 0 5%;
-}
-
-body-wrapper {
-    max-width: 68em;
-    margin: 0, auto;
 }
 
 .quote {
@@ -635,10 +630,7 @@ body-wrapper {
 }
 
 .divider {
-    text-align: center;
-    border-bottom: 2px solid #F9F1E1;
-    width: 90%;
-    display: block;
+    display: none;
 }
 
 .divider-gold {
@@ -654,7 +646,7 @@ body-wrapper {
 .note {
     color: #dfb45c;
     font-style: italic;
-    font-size: .75rem;
+    font-size: .8rem;
 }
 
 .full-bleed {
@@ -716,7 +708,6 @@ body-wrapper {
     
 }
 
-
 /* this is m size */
 @media only screen and (min-width: 38em) {
 
@@ -730,14 +721,13 @@ body-wrapper {
     }
     
     .hero-content {
-    margin-top: 10%;
+        margin-top: 10%;
     }
     
     
     .hero-title {
         font-size: 2.75em;
         margin-top: 2%;
-
     }
 
     .hero-tag {
@@ -771,12 +761,15 @@ body-wrapper {
     }
     
     .divider {
-        text-align: center;
+        border: 0;
         border-bottom: 2px solid #F9F1E1;
-        width: 90%;
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
         display: block;
-        padding: 2rem;
+    }
+    
+    .body-wrapper {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
  
 }
