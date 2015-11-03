@@ -178,6 +178,20 @@ small, .milli {
   padding: 0.3250rem;
 }
 
+/* island padding that changes with media-queries */
+
+.island-flex-top {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.island-flex-bottom {
+    padding-bottom: 1rem; 
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 .gutter {
   padding-left: 1.3rem;
   padding-right: 1.3rem;
@@ -204,7 +218,7 @@ small, .milli {
 }
 
 @media only screen and (min-width: 38em) {
-
+    
 html {
   font-size: 110%;
   line-height: 1.4;
@@ -217,6 +231,14 @@ fieldset, pre, table {
   margin: 0 0 1.4rem;
 }
 
+.island-flex-top {
+   padding: 2.6000rem; 
+}
+
+.island-flex-bottom {
+   padding: 2.6000rem; 
+}
+    
 .yotta {
   font-size: 2.2807rem;
   line-height: 1.2277;
@@ -385,7 +407,6 @@ small, .milli {
 .pad-t-flex {
     padding-top: 2rem;
 }
-    
     
 html {
   font-size: 120%;
@@ -712,5 +733,6 @@ small, .milli {
 .island-mega {
     padding: 2rem 25%;
 }  
+    
 
 }

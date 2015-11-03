@@ -15,7 +15,8 @@ changefreq: monthly
 
 <main role="main" id="main">
     
-<section id="portfolio">
+<section class="jump-wrapper">
+    <div class="jump-target" id="portfolio"></div>
     <h2 class="section-header">Portfolio</h2>
     <div class="grid">
         {% for project in site.categories.portfolio %}
@@ -29,13 +30,13 @@ changefreq: monthly
                 </ul>
             </div>
         </div>
-        <div class="grid">
-            <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 island-2">
+        <div class="grid body-wrapper">
+            <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 island-flex-top">
                 <h1 class="zetta"> {{ project.client }} </h1>
                 <h3> {{ project.title }} </h3>
                 <p class="note">{{ project.note }}</p>
             </div>
-            <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 island-2">
+            <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 island-flex-bottom">
                 <p class="mega">{{ project.summary }}</p>
                 <div class="align-right">
                 <a class="btn-gold-inverse" href="{{ site.baseurl }}/{{ project.link }}">view case-study</a>

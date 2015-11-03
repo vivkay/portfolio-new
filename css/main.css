@@ -60,7 +60,7 @@ a:focus {
 
 .hero-title {
     color: ffff;
-    font-size: 1.75em;
+    font-size: 1.25em;
     text-transform: uppercase;
     letter-spacing: 0.3em;
     margin-bottom: 0.375em;
@@ -270,6 +270,11 @@ ul, ol, p {
 
 .wrapper-margin {
     margin: 0 5%;
+}
+
+body-wrapper {
+    max-width: 68em;
+    margin: 0, auto;
 }
 
 .quote {
@@ -641,10 +646,7 @@ ul, ol, p {
     text-align: center;
     border-bottom: 2px solid #F9F1E1;
     width: 90%;
-    height: 2rem;
-    margin-bottom: 4rem;
     display: block;
-    padding: 2rem;
 }
 
 .divider-gold {
@@ -676,11 +678,20 @@ ul, ol, p {
     padding-bottom: 5px;
 }
 
+.jump-wrapper {
+    position: relative;
+}
+
+.jump-target {
+    position: absolute;
+    top: -125px;
+}
+
 /* this is s size */
 @media only screen and (min-width: 25em) {
     
     .hero-title {
-        margin-top: 8%;
+        margin-top: 4%;
     }
 
     .island-flex {
@@ -741,7 +752,6 @@ ul, ol, p {
     .hero-tag {
         font-size: 1.0125em;
         margin-top: 1.25em;
-
     }
     
     .btn-cta {
@@ -768,6 +778,15 @@ ul, ol, p {
         .flex {
         margin-left: 2rem;
     }
+    
+    .divider {
+        text-align: center;
+        border-bottom: 2px solid #F9F1E1;
+        width: 90%;
+        margin-bottom: 4rem;
+        display: block;
+        padding: 2rem;
+    }
 
     
 }
@@ -775,7 +794,7 @@ ul, ol, p {
 
 /* this is l size */
 @media only screen and (min-width: 60em) {
-    
+
     .nav-wrapper {
         display: block;
         width: 100%;
@@ -873,11 +892,12 @@ ul, ol, p {
     }
     
     .hero-title {
-        font-size: 4rem;
+        font-size: 3rem;
     }
-
+    
     .hero-tag {
-        font-size: 2rem;
+        font-size: 1.125em;
+        margin-top: 1.25em;
     }
     
     .section-header {
