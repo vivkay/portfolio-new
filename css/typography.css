@@ -292,10 +292,6 @@ small, .milli {
 .pull-double, .pull-2 {
     margin-top: 2.8000rem;
 }
-    
-.push-quadruple, .push-4 {
-  margin-bottom: 5.6000rem;
-}
 
 .push-half, .push-1-2 {
   margin-bottom: 0.7000rem;
@@ -461,6 +457,10 @@ small, .milli {
 
 .push-quarter, .push-1-4 {
   margin-bottom: 0.3750rem;
+}
+    
+.push-quadruple, .push-4 {
+    margin-bottom: 6.0000rem;
 }
 
 .pad-top, .pad-t {
