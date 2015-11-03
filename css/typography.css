@@ -178,20 +178,6 @@ small, .milli {
   padding: 0.3250rem;
 }
 
-/* island padding that changes with media-queries */
-
-.island-flex-top {
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-.island-flex-bottom {
-    padding-bottom: 1rem; 
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
 .gutter {
   padding-left: 1.3rem;
   padding-right: 1.3rem;
@@ -230,15 +216,7 @@ blockquote, details, hr,
 fieldset, pre, table {
   margin: 0 0 1.4rem;
 }
-
-.island-flex-top {
-   padding: 2.6000rem; 
-}
-
-.island-flex-bottom {
-   padding: 2.6000rem; 
-}
-    
+   
 .yotta {
   font-size: 2.2807rem;
   line-height: 1.2277;
@@ -275,7 +253,7 @@ h5, .mega {
 }
     
 .body {
-    font-size: 1.1250rem;
+    font-size: 1rem;
     line-height: 1.6;
 }
 

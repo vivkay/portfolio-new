@@ -208,31 +208,17 @@ ul, ol, p {
     color: black;
     outline: 2px solid #dfb45c; 
     text-align: center;
-    margin: 2em auto 0 auto;
+    margin: 0 auto 2.5rem auto;
     letter-spacing: 1px;
     font-weight: thin;
-    max-width: 25em;
     font-weight: lighter;
-}
-
-.align-right {
-    float: right;
-    display: inline-block;
+    float: left;
+    width: 100%;
 }
 
 .btn-gold-inverse:hover {
-    font-size: 1rem;
-    padding: 1.25rem 1.5rem;
-    text-decoration: none; 
-    display: block;
     color: white;
     background-color: #dfb45c; 
-    text-align: center;
-    margin: 2em auto 0 auto;
-    letter-spacing: 1px;
-    font-weight: thin;
-    max-width: 25em;
-    font-weight: lighter;
 }
 
 .btn-gold-footer {
@@ -660,10 +646,9 @@ body-wrapper {
 }
 
 .note {
-    background-color: #dfb45c;
-    color: white;
-    padding: .5rem;
-    width: 25%;
+    color: #dfb45c;
+    font-style: italic;
+    font-size: .75rem;
 }
 
 .full-bleed {
@@ -775,7 +760,7 @@ body-wrapper {
         color: #dfb45c;
     }
     
-        .flex {
+    .flex {
         margin-left: 2rem;
     }
     
@@ -787,10 +772,8 @@ body-wrapper {
         display: block;
         padding: 2rem;
     }
-
-    
+ 
 }
-
 
 /* this is l size */
 @media only screen and (min-width: 60em) {
@@ -928,7 +911,12 @@ body-wrapper {
     
     .social-icon {
         width: 20%;
-}
+    }
+    
+    .btn-gold-inverse  {
+        margin: 1rem auto 2.5rem auto;
+    }
+        
     
 }
 
