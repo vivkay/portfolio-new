@@ -216,7 +216,8 @@ ul, ol, p {
 }
 
 .align-right {
-    text-align: right;
+    float: right;
+    display: inline-block;
 }
 
 .btn-gold-inverse:hover {

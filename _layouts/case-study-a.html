@@ -100,15 +100,15 @@ layout: default
 
 <div class="grid">
     <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-            <a class="breadcrumb-back" href="{{site.baseurl}}/{{index.html #portfolio}}">
+            <a class="breadcrumb-back" href="{{site.baseurl}}/#portfolio">
                 <p class="hint-crumb">Back</p>
                 <p class="name-crumb">Portfolio Overview</p>
             </a>
     </div>
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-        <a class="breadcrumb-fwd" href="{{site.baseurl}}/{{project2.html}}">
+        <a class="breadcrumb-fwd" href="{{site.baseurl}}/{{ page.next-piece }}">
             <p class="hint-crumb">Next</p>
-            <p class="name-crumb">Project 2 Name</p>
+            <p class="name-crumb">{{page.next-piece-title}}</p>
             </a>
     </div>
 </div>
