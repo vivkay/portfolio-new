@@ -140,16 +140,12 @@ ul, ol, p {
     top: 75%;
 }
 
-.btn-top {
-}
-
 .btn-cta {
-    margin-bottom: 2rem;
-    margin-top: 0.5em;
+    margin: 0 ;
     border: 2px solid white;
-    font-size: 1rem;
+    font-size: .75rem;
     text-transform: uppercase;
-    padding: 1rem 4rem;
+    padding: .5rem 4rem;
     text-decoration: none; 
     display:inline-block;
     font-weight: lighter; 
@@ -740,11 +736,10 @@ ul, ol, p {
 
     .hero-tag {
         font-size: 1.0125em;
-        margin-top: 1.25em;
     }
     
     .btn-cta {
-        margin-top: 1.25em;
+        margin-top: 1em;
     }
 
     
@@ -788,6 +783,10 @@ ul, ol, p {
 /* this is l size */
 @media only screen and (min-width: 60em) {
 
+    .btn-cta {
+        padding: 1rem 4rem;
+    }
+    
     .nav-wrapper {
         display: block;
         width: 100%;
@@ -890,7 +889,6 @@ ul, ol, p {
     
     .hero-tag {
         font-size: 1.125em;
-        margin-top: 1.25em;
     }
     
     .section-header {
@@ -907,8 +905,8 @@ ul, ol, p {
     }
 
     .btn-cta {
-        font-size: 1.5rem;
-        padding: 1.5rem 4rem;
+        font-size: 1rem;
+        padding: 1.5rem 65px;
     }
     
     .header-flex {
