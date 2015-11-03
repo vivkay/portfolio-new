@@ -200,6 +200,10 @@ ul, ol, p {
     background-color: #C9A253; 
 }
 
+.btn-gold:active {
+    background-color: #CC9628;
+}
+
 .btn-gold-inverse {
     font-size: 1rem;
     padding: 1.25rem 1.5rem;
@@ -210,8 +214,6 @@ ul, ol, p {
     text-align: center;
     margin: 0 auto 2.5rem auto;
     letter-spacing: 1px;
-    font-weight: thin;
-    font-weight: lighter;
     float: left;
     width: 100%;
 }
@@ -219,6 +221,10 @@ ul, ol, p {
 .btn-gold-inverse:hover {
     color: white;
     background-color: #dfb45c; 
+}
+
+.btn-gold-inverse:active {
+    background-color: #CC9628;
 }
 
 .btn-gold-footer {
