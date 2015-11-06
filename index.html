@@ -31,12 +31,12 @@ changefreq: monthly
             </div>
         </div>
         <div class="grid body-wrapper pad-t-1-2 pad-b-1-2">
-            <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 gutter">
+            <div class="unit unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-2 gutter">
                 <h2 class="zetta push-1-2"> {{ project.client }} </h2>
                 <h3 class="grey push-1"> {{ project.title }} </h3>
                 <p class="note">{{ project.note }}</p>
             </div>
-            <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2 gutter">
+            <div class="unit unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-2 gutter">
                 <p class="body">{{ project.summary }}</p>
                 <div class="align-right">
                 <a class="btn-gold-inverse" href="{{ site.baseurl }}/{{ project.link }}">view case-study</a>
@@ -63,12 +63,18 @@ changefreq: monthly
         
 <section id="experience" class="centered push-2">
     <h2 class="section-header">Experience</h2>
-    <div class="grid">
-        <div class="unit unit-s-1 centered island-mega push-2">
-            <p class="quote">"Vivienne’s keen eye for design and ability to turn things around in record breaking times make her a great asset to any team. Her editorial skills we're a tremendous help and coincided well in creating compelling and intuitive design."</p>
+    
+    <div class="grid body-wrapper pad-t-1-2 pad-b-1-2">
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 gutter">
+            <p class="body push-2x grey italic">"Vivienne’s keen eye for design and ability to turn things around in record breaking times make her a great asset to any team. Her editorial skills we're a tremendous help and coincided well in creating compelling and intuitive design."</p>
+        <p class="milli">Michel Joanisse, Front End Developer, <br> <span class="bold">Canadian Museum of History</span></p>
         </div>
-            <p class="body-ctr">Michel Joanisse, Front End Developer<br><span class="body-ctr bold">Canadian Museum of History</span></p>
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 gutter">
+            <p class="body push-2 grey italic">Viv is a diligent worker with a strong work ethic and playful design approach. She is always full of fresh ideas, and has the software skills to produce quality work on a tight timeline. She's been a great asset to our team.</p>
+            <p class="milli">Ian Skoczylas, Creative Services Coordinator, <br> <span class="bold">Algonquin College Students' Association</span></p>
+        </div>
     </div>
+
     <div class="grid">
         {% for project in site.categories.job %}
             <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-4 island">

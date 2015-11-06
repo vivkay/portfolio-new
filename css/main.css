@@ -273,12 +273,9 @@ ul, ol, p {
 }
 
 .quote {
-    width: 100%;
-    text-align: center;
-    padding: 0 2em;
-    font-size: 1.5rem;
+    margin: 0 10%;
+    font-size: 1rem;
     line-height: 1.5;
-    letter-spacing: 1px;
     font-style: italic;
     font-weight: lighter;
     color: grey;
