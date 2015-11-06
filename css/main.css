@@ -625,6 +625,15 @@ ul, ol, p {
     width: 80%;
 }
 
+.solo-icon {
+    width: 60px;
+    opacity: .5;
+}
+
+.solo-icon:hover {
+    opacity: 1;
+}
+
 .social-icon {
     width: 40%;
     opacity: 1;
