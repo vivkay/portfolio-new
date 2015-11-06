@@ -287,7 +287,6 @@ ul, ol, p {
     padding: 0 2em;
     font-size: 1rem;
     line-height: 1.5;
-    letter-spacing: 1.5px;
 }
 
 .deck {
@@ -356,7 +355,6 @@ ul, ol, p {
     display: inline-block;
     box-shadow: 2px 2px 2px #EAEAEA;
     width: 100%;
-    background-color: #333333;
 }
 
 .exp-box a {
@@ -508,7 +506,6 @@ ul, ol, p {
     width: 60%;
     text-align: center;
     display: inline-block;
-    color: white;
 }
 
 .classification {
@@ -516,7 +513,6 @@ ul, ol, p {
     padding-top: 1em;
     letter-spacing: 1px;
     font-weight: lighter;
-    color: #dfb45c;
 }
 
 .classification-black {
