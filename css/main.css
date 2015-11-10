@@ -108,6 +108,46 @@ ul, ol, p {
     display: block;
 }
 
+.nav-check {
+    position: absolute;
+    top: -3em;
+}
+
+.nav-label {
+    cursor: pointer;
+    color: white;
+    width: 40px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.nav-open,
+.nav close {
+    display: block;
+    width: 100%;
+}
+
+.nav-check:checked ~ .nav-label {
+    background-color: red;
+}
+
+.nav-open {
+}
+
+.nav-close {
+    display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+    display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+    display: block;
+}
+
 .nav-wrapper {
     top: 0;
 }

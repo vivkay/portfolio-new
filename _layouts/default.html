@@ -23,7 +23,10 @@
     <div class="nav-wrapper">
         <nav role="navigation" id="nav">
             <input type="checkbox" class="nav-check" id="nav-check">
-            <label for="nav-check">Navigate</label>
+            <label class="nav-label" for="nav-check">
+                <img class="nav-open" src="{{site.baseurl}}/img/hamburger.svg" alt="open navigation">
+                <img class="nav-close" src="{{site.baseurl}}/img/hamburger-close.svg" alt="close navigation">
+            </label>
             <ul class="nav">
                 <li class="nav-link"><a class="{% if page.url == '/index.html'%}current{% endif %}" href="{{site.baseurl}}/index.html"><img class="logo" src="{{site.baseurl}}/img/logo-vk.png"></a></li>
                 <li class="nav-link"><a class="{% if page.url == '/index.html#portfolio'%}current{% endif %}" href="{{site.baseurl}}/index.html#portfolio">PORTFOLIO</a></li>
