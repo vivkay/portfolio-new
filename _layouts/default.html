@@ -29,7 +29,9 @@
                 <img class="nav-close" src="{{site.baseurl}}/img/hamburger-close.svg" alt="close navigation">
             </label>
             <ul class="nav">
+                {% if page.url != '/' %}
                 <li class="nav-link"><a class="{% if page.url == '/index.html'%}current{% endif %}" href="{{site.baseurl}}/index.html"><img class="logo" src="{{site.baseurl}}/img/logo-vk.png"></a></li>
+                {% endif %}
                 <li class="nav-link"><a class="{% if page.url == '/index.html#portfolio'%}current{% endif %}" href="{{site.baseurl}}/index.html#portfolio">PORTFOLIO</a></li>
                 <li class="nav-link"><a href="{{site.baseurl}}/index.html#experience">EXPERIENCE</a></li>
                 <li class="nav-link"><a href="{{site.baseurl}}/index.html#about">ABOUT</a></li>
