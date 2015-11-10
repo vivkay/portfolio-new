@@ -1,10 +1,9 @@
 ---
 layout: case-study-a
-title: Concept, Branding and UI
+title: Concept, Branding and UI Design
 client: Pointer | UX Survey Tool
 meta: Creativework
 category: portfolio
-type: User Interface Design for iOS
 img: preview-pointer.jpg
 link: pointer-ux-tool
 note: student award | honourable mention
