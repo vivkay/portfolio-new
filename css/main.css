@@ -96,11 +96,71 @@ ul, ol, p {
     margin: 1em;
 }
 
+.logo {
+    display: none;
+}
+
+.nav-wrapper {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    top: 0;
+}
+
+.ham-btn {
+    display: none;
+}
+
+nav {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+nav ul {
+    margin: 0 auto;
+    height: 50px;
+}
+
+nav ul img {
+    margin: 0 -40px;
+    width: 20px;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px 30px;
+}
+
+
+nav a:hover {
+    color: #C9A253;
+}
+
+nav a:active {
+    color: #8D713A;
+}
+
+.current {
+    color: #C9A253;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: .25rem;
+    letter-spacing: 1px;
+}  
+
 .nav {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    background-color: red;
     display: none;
 }
 
@@ -121,6 +181,7 @@ ul, ol, p {
     position: absolute;
     left: 1em;
     top: 1em;
+    z-index: 1000;
 }
 
 .nav-open,
@@ -130,7 +191,7 @@ ul, ol, p {
 }
 
 .nav-check:checked ~ .nav-label {
-    background-color: red;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .nav-open {
@@ -147,10 +208,6 @@ ul, ol, p {
 
 .nav-check:checked ~ .nav-label .nav-close {
     display: block;
-}
-
-.nav-wrapper {
-    top: 0;
 }
 
 .hero {
@@ -855,6 +912,15 @@ ul, ol, p {
     .center-flex {
         text-align: center;
     }
+    
+    .nav-label {
+        display: none;
+    }
+    
+    .nav {
+        display: block;
+    }
+
 }
 
 /* this is l size */
@@ -864,70 +930,13 @@ ul, ol, p {
         padding: 1rem 4rem;
     }
     
-    .nav-wrapper {
-        display: block;
-        width: 100%;
-        margin: 0 auto;
-        top: 0;
-    }
-    
-    .ham-btn {
-        display: none;
-    }
-    
-    nav {
-        position: fixed;
-        z-index: 100;
-        top: 0;
-        background-color: rgba(0, 0, 0, 0.6);
-        width: 100%;
-        padding: 0;
-        margin: 0 auto;
-    }
-    
-    nav ul {
-        margin: 0 auto;
-        height: 50px;
-    }
-    
-    nav ul img {
-        margin: 0 -40px;
-        width: 20px;
-    }
-    
     .logo {
         display: inline-block;
         width: 30px;
         float: left;
         position: absolute;
         top: 10px;
-    }
-    
-    nav li {
-        list-style-type: none;
-        display: inline-block;
-        margin: 10px 30px;
-    }
-    
-  
-    nav a:hover {
-        color: #C9A253;
-    }
-    
-    nav a:active {
-        color: #8D713A;
-    }
-    
-    .current {
-        color: #C9A253;
-    }
-
-    nav a {
-        text-decoration: none;
-        color: white;
-        font-size: .25rem;
-        letter-spacing: 1px;
-    }   
+    } 
     
     .name {
     font-size: 8rem;
