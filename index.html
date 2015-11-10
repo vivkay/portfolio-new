@@ -55,7 +55,8 @@ changefreq: monthly
     </div>
 </section>
 
-<section id="experience" class="centered push-2">
+<section class="jump-wrapper centered push-2">
+    <div class="jump-target" id="experience"></div>
     <h2 class="section-header">Experience</h2>
     
     <div class="grid body-wrapper pad-t-1-2 pad-b-1-2">
@@ -72,12 +73,14 @@ changefreq: monthly
     <div class="grid">
         {% for project in site.categories.job %}
             <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-4 island">
+                <a class="exp-a" href="https://www.linkedin.com/in/vivkay">
                 <div class="exp-box">
                     <div class="exp-txt-wrap">
                         <p class="description">{{ project.title }}</p>
                         <p class="classification grey">{{ project.place }} | {{ project.year }}</p>
                     </div>
                 </div>
+                </a>
             </div>
         {% endfor %}
     </div>
