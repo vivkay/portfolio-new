@@ -96,8 +96,20 @@ ul, ol, p {
     margin: 1em;
 }
 
-.nav-wrapper {
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: red;
     display: none;
+}
+
+.nav-check:checked ~ .nav {
+    display: block;
+}
+
+.nav-wrapper {
+    top: 0;
 }
 
 .hero {
@@ -112,7 +124,7 @@ ul, ol, p {
             rgba(0, 0, 0, 0.45)
         ),
         no-repeat center bottom / 100% 80%,
-        url("http://placehold.it/1200x1125") no-repeat center top;
+        url("../img/hero.jpg") no-repeat center top;
     background-size: cover;
     padding-top: 56.25%;
 }
@@ -152,7 +164,6 @@ ul, ol, p {
     margin: 0 ;
     border: 2px solid white;
     font-size: .75rem;
-    text-transform: uppercase;
     padding: .5rem 4rem;
     text-decoration: none; 
     display:inline-block;
@@ -163,7 +174,7 @@ ul, ol, p {
 }
 
 .btn-cta:hover {
-    background-color: rgba(255,255,255,0.1); 
+    background-color: rgba(255,255,255,0.3); 
 }
 
 .btn-transparent {
@@ -287,6 +298,13 @@ ul, ol, p {
     padding: 0 2em;
     font-size: 1rem;
     line-height: 1.5;
+}
+
+.body-ctr-sml {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.6;
+    width: 80%;
 }
 
 .deck {

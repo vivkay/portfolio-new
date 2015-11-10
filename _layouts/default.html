@@ -20,12 +20,11 @@
     
     <!-- add aria roles (see thomas video - dashboard: accessibility) when/if add js to nav-->
 <header class="hero" role="banner">
-    <div class="ham-btn">
-        <img src="{{site.baseurl}}/img/hamburger.svg" alt="navigation toggle">
-    </div>
     <div class="nav-wrapper">
         <nav role="navigation" id="nav">
-            <ul>
+            <input type="checkbox" class="nav-check" id="nav-check">
+            <label for="nav-check">Navigate</label>
+            <ul class="nav">
                 <li class="nav-link"><a class="{% if page.url == '/index.html'%}current{% endif %}" href="{{site.baseurl}}/index.html"><img class="logo" src="{{site.baseurl}}/img/logo-vk.png"></a></li>
                 <li class="nav-link"><a class="{% if page.url == '/index.html#portfolio'%}current{% endif %}" href="{{site.baseurl}}/index.html#portfolio">PORTFOLIO</a></li>
                 <li class="nav-link"><a href="{{site.baseurl}}/index.html#experience">EXPERIENCE</a></li>
