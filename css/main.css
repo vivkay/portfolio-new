@@ -59,7 +59,7 @@ a:focus {
 }
 
 .hero-title {
-    color: ffff;
+    color: white;
     font-size: 1.25em;
     text-transform: uppercase;
     letter-spacing: 0.3em;
@@ -109,7 +109,6 @@ nav ul {
 }
 
 nav ul img {
-    xmargin: 0 -40px;
     width: 20px;
 }
 
@@ -284,7 +283,6 @@ nav a:active {
     text-align: center;
     margin: 2em auto 0 auto;
     letter-spacing: 1px;
-    font-weight: thin;
     max-width: 25em;
     font-weight: lighter;
 }
@@ -309,7 +307,6 @@ nav a:active {
     text-align: center;
     margin: 2em auto 0 auto;
     letter-spacing: 1px;
-    font-weight: thin;
     max-width: 25em;
     font-weight: lighter;
 }
@@ -355,7 +352,6 @@ nav a:active {
     text-align: center;
     margin: 0 auto;
     letter-spacing: 2px;
-    font-weight: thin;
     width: 100%;
     text-transform: uppercase;
 }
