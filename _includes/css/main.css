@@ -192,7 +192,6 @@ nav a:active {
 }
 
 .hero {
-    background-color: black;
     text-align: center;
     max-height: 75vh;
     position: relative;
@@ -203,6 +202,7 @@ nav a:active {
         ),
         no-repeat center bottom / 100% 80%,
         url("../img/viv-cover.jpg") no-repeat center top;
+    background-color: grey;
     background-size: cover;
     padding-top: 56.25%;
 }

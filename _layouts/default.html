@@ -16,7 +16,7 @@
     <li><a href="#main">Skip to main content</a></li>
 </ul>    
 
-<header class="hero" role="banner" {% if page.hero %}style="background-image: url({{site.baseurl}}/img/{{page.hero}})"{% endif %}>
+<header class="hero" role="banner" {% if page.hero %}style="background-image: url({{site.baseurl}}/img/{{page.hero}})" alt="{{page.hero-alt}}" {% endif %}>
         <nav role="navigation" id="nav">
             <input type="checkbox" class="nav-check" id="nav-check">
             <label class="nav-label" for="nav-check">
@@ -25,7 +25,7 @@
             </label>
             <ul class="nav">
                 {% if page.url != '/' %}
-                <li class="nav-link logo-link"><a class="{% if page.url == '/index.html'%}current{% endif %}" href="{{site.baseurl}}/index.html"><img class="logo" src="{{site.baseurl}}/img/logo-vk.png"></a></li>
+                <li class="nav-link logo-link"><a class="{% if page.url == '/index.html'%}current{% endif %}" href="{{site.baseurl}}/index.html"><img class="logo" src="{{site.baseurl}}/img/logo-vk.png" alt="home"></a></li>
                 {% endif %}
                 <li class="nav-link"><a class="{% if page.url == '/index.html#portfolio'%}current{% endif %}" href="{{site.baseurl}}/index.html#portfolio">PORTFOLIO</a></li>
                 <li class="nav-link"><a href="{{site.baseurl}}/index.html#experience">EXPERIENCE</a></li>
