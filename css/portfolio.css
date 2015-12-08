@@ -1,6 +1,7 @@
 ---
 ---
 
+{% include css/404.css %}
 {% include css/animate.css %}
 {% include css/grid.css %}
 {% include css/typography.css %}
