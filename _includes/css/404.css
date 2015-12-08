@@ -140,3 +140,24 @@
         right: 70px;
     }
 }
+
+@media only screen and (min-width: 25em) {
+    .desktop {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 38em) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+}
+
+@media only screen and (min-width: 80em) {
+}
+
+@media only screen and (min-width: 100em) {
+}
