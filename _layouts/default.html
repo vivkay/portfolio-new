@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
     <meta charset="utf-8">
-    <title>{% if page.title %}{{ page.title }} • {% endif %} Graphic and Interactive Design Portfolio {% if page.title After %} • {{ page.titleAfter }}{% endif %}</title>
+    <title>Vivienne Kay &middot; UX Designer</title>
     <meta name="description" content="Vivienne Kay: Graphic Design Portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="{{site.baseurl}}/css/portfolio.css" rel="stylesheet">
@@ -10,31 +10,8 @@
     <link href="{{site.baseurl}}/vk-favicon.ico" rel="shortcut icon">
 </head>
 <body>
-        
-<ul class="skip-links">
-    <li><a href="#nav">Skip to navigation</a></li>
-    <li><a href="#main">Skip to main content</a></li>
-</ul>    
 
-<header class="hero" role="banner" {% if page.hero %}style="background-image: url({{site.baseurl}}/img/{{page.hero}})" alt="{{page.hero-alt}}" {% endif %}>
-        <nav role="navigation" id="nav">
-            <input type="checkbox" class="nav-check" id="nav-check">
-            <label class="nav-label" for="nav-check">
-                <img class="nav-open" src="{{site.baseurl}}/img/hamburger.svg" alt="open navigation">
-                <img class="nav-close" src="{{site.baseurl}}/img/hamburger-close.svg" alt="close navigation">
-            </label>
-            <ul class="nav">
-                {% if page.url != '/' %}
-                <li class="nav-link logo-link"><a class="{% if page.url == '/index.html'%}current{% endif %}" href="{{site.baseurl}}/index.html"><img class="logo" src="{{site.baseurl}}/img/logo-vk.png" alt="home"></a></li>
-                {% endif %}
-                <li class="nav-link"><a class="{% if page.url == '/index.html#portfolio'%}current{% endif %}" href="{{site.baseurl}}/index.html#portfolio">PORTFOLIO</a></li>
-                <li class="nav-link"><a href="{{site.baseurl}}/index.html#experience">EXPERIENCE</a></li>
-                <li class="nav-link"><a href="{{site.baseurl}}/index.html#contact">CONTACT</a></li>
-            </ul>
-        </nav>  
-</header>
-    
 {{ content }}
-    
+
 </body>
 </html>

@@ -2,119 +2,15 @@
 layout: default
 title: Vivienne Kay
 meta: Overview of Vivienne Kay's graphic and interactive design skills and experience, with portfolio samples
-priority: 1.0 
+priority: 1.0
 changefreq: monthly
 ---
-
-<div class="hero-content">
-    <h1 class="push-0"><img class="logo-main" src="{{ site.baseurl }}/img/logo-vk-red.svg" alt="Vivienne Kay"></h1>
-    <p class="hero-tag pad-t-1-2">I get jazzed about user-interaction design</p>
-    <a class="btn-cta" href="#contact">say hello</a>
-</div>    
-
-<main role="main" id="main">
-    
-<section class="jump-wrapper">
-    <div class="jump-target" id="portfolio"></div>
-    <h2 class="section-header">Portfolio</h2>
-    
-    {% for project in site.categories.portfolio %}
-        <div class="grid">
-            <div class="unit unit-xs-1">
-                <ul class="clear">
-                    <li class="pf-parent">
-                        <a href="{{ site.baseurl }}/{{ project.link }}">
-                            <img class="box" src="{{ site.baseurl }}/img/{{ project.img }}" alt="{{page.preview-alt}}"> 
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="grid body-wrapper pad-t-1-2 pad-b-1-2">
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-2 gutter">
-                <h2 class="zetta push-1-2"> {{ project.client }} </h2>
-                <h3 class="grey push-1"> {{ project.title }} </h3>
-                <p class="note">{{ project.note }}</p>
-            </div>
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-2 gutter">
-                <p class="body">{{ project.summary }}</p>
-                <div class="align-right">
-                <a class="btn-gold-inverse" href="{{ site.baseurl }}/{{ project.link }}">view case-study</a>
-                </div>
-            </div>
-        </div>
-        <div class="gutter">
-            <hr class="divider">
-        </div>
-    {% endfor %}
-    
-    <div class="pull-2 gold-ground centered island-2">
-        <img class="solo-icon push-2" src="{{site.baseurl}}/img/social-behance.png" alt="behance icon">
-        <p class="white body-ctr">I have loads more work in digital, print and illustration design – follow this link to check it out on my Behance page!</p>
-        <a class="centered btn-cta white" href="https://www.behance.net/vivkay">see more work on Behance</a>
-    </div>
-</section>
-
-<section class="jump-wrapper centered push-2">
-    <div class="jump-target" id="experience"></div>
-    <h2 class="section-header">Experience</h2>
-    
-    <div class="grid body-wrapper pad-t-1-2 pad-b-1-2">
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 gutter">
-            <p class="body grey italic">Viv is a diligent worker with a strong work ethic and playful design approach. She is always full of fresh ideas, and has the software skills to produce quality work on a tight timeline. She's been a great asset to our team.</p>
-            <p class="milli">Ian Skoczylas, Creative Services Coordinator, <br> <span class="bold">Algonquin College Students' Association</span></p>
-        </div>
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 gutter">
-            <p class="body grey italic">Vivienne’s keen eye for design and ability to turn things around in record breaking times make her a great asset to any team. Her editorial skills we're a tremendous help and coincided well in creating compelling and intuitive design.</p>
-        <p class="milli">Michel Joanisse, Front End Developer, <br> <span class="bold">Canadian Museum of History</span></p>
-        </div>
-    </div>
-
-    <div class="grid">
-        {% for project in site.categories.job %}
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-4 island">
-                <a class="exp-a" href="https://www.linkedin.com/in/vivkay">
-                <div class="exp-box">
-                    <div class="exp-txt-wrap">
-                        <p class="description">{{ project.title }}</p>
-                        <p class="classification grey">{{ project.place }} | {{ project.year }}</p>
-                    </div>
-                </div>
-                </a>
-            </div>
-        {% endfor %}
-    </div>
-        
-    <div class="grid body-wrapper pad-t-1-2 pad-b-1-2 centered">
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter">
-        <a class="centered btn-gold white" href="https://www.behance.net/vivkay">Visit my LinkedIn Page</a>
-    </div>
+<div class="wrapper">
+  <div class="centered">
+    <header class="header ">
+      <h1>Vivienne Kay</h1>
+      <p>I'm a designer at <a href="https://shopify.com">Shopify</a>, you can find
+      me on <a href="#">Twitter</a>, <a href="#">Medium</a> and <a href="#">Instagram</a>.</p>
+    </header>
+  </div>
 </div>
-</section>
-       
-<section id="contact" class="centered bg-img-2 pad-b island-mega">
-    <h2 class="section-header white">Hello</h2>
-    <p class="body-ctr white">I love talking about all things design. If you have questions, want to collaborate on a project, or just want to talk design – let's chat!</p>
-    <div class="grid">
-        <div class="unit unit-xs-1-2  unit-s-1-2 unit-m-1-4 unit-l-1-4 unit-xl-1-4 island">
-            <a href="mailto:hello@vivkay.com"><img class="social-icon" src="{{site.baseurl}}/img/social-email.png" alt="email icon"><p class="white">hello@vivkay.com</p></a>
-        </div>
-        <div class="unit unit-xs-1-2  unit-s-1-2 unit-m-1-4 unit-l-1-4 unit-xl-1-4 island">
-            <a href="https://twitter.com/viv_kay"><img class="social-icon" src="{{site.baseurl}}/img/social-twitter.png" alt="twitter icon"><p class="white">@viv_kay</p></a>
-        </div>
-        <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-4 unit-l-1-4 unit-xl-1-4 island">
-            <a href="https://www.linkedin.com/in/vivkay"><img class="social-icon" src="{{site.baseurl}}/img/social-linkedin.png" alt="linked in icon"><p class="white">Résumé</p></p></a>
-        </div>
-        <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-4 unit-l-1-4 unit-xl-1-4 island">
-            <a href="https://vimeo.com/user36563588"><img class="social-icon" src="{{site.baseurl}}/img/social-vimeo.png" alt="vimeo icon"><p class="white">Motion Graphics</p></p></a>
-        </div>
-    </div>
-    <div class="unit unit-s-1 divider-gold centered"></div>
-</section>
-        
-</main>
-
-<footer role="contentinfo">
-    <a class="btn-gold-footer" href="#top">Back to Top</a>
-</footer>
-    
